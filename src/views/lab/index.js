@@ -92,23 +92,23 @@ const LabBoard = () => {
           <CarouselContainer>
             <ImageItem onClick={() => goToSlide(0)}>
               <img src={gerardoT} alt="Gerardo Gonzalez Yapor" />
-              <h2><GothamLight>Gerardo</GothamLight><br/><strong>Gonzalez Yapor</strong></h2>
+              <h2><GothamLight lineHeight={'1.5em'}>Gerardo</GothamLight><br/><strong>Gonzalez Yapor</strong></h2>
             </ImageItem>
             <ImageItem onClick={() => goToSlide(1)}>
               <img src={kurtT} alt="Kurt Wicker" />
-              <h2><GothamLight>Kurt</GothamLight><br/><strong>Wicker</strong></h2>
+              <h2><GothamLight lineHeight={'1.5em'}>Kurt</GothamLight><br/><strong>Wicker</strong></h2>
             </ImageItem>
             <ImageItem onClick={() => goToSlide(2)}>
               <img src={vivianaT} alt="Viviana Alcocer" />
-              <h2><GothamLight>Viviana</GothamLight><br/><strong>Alcocer</strong></h2>
+              <h2><GothamLight lineHeight={'1.5em'}>Viviana</GothamLight><br/><strong>Alcocer</strong></h2>
             </ImageItem>
             <ImageItem onClick={() => goToSlide(3)}>
               <img src={gerardT} alt="Gérard Schoor" />
-              <h2><GothamLight>Gérard</GothamLight><br/><strong>Schoor</strong></h2>
+              <h2><GothamLight lineHeight={'1.5em'}>Gérard</GothamLight><br/><strong>Schoor</strong></h2>
             </ImageItem>
             <ImageItem onClick={() => goToSlide(4)}>
               <img src={mauricioT} alt="Mauricio Uribe" />
-              <h2><GothamLight>Mauricio</GothamLight><br/><strong>Uribe</strong></h2>
+              <h2><GothamLight lineHeight={'1.5em'}>Mauricio</GothamLight><br/><strong>Uribe</strong></h2>
             </ImageItem>
           </CarouselContainer>
         ) : (

@@ -51,6 +51,7 @@ const OurPractice = () => {
                       image={medServices}
                       text={t('ourpractice.lifesciences.section6')}
                       textStyle={{
+                        fontFamily: 'GothamLight',
                         color: 'white',
                         fontSize: 30,
                       }}
@@ -66,8 +67,9 @@ const OurPractice = () => {
                           image={dist}
                           text={t('ourpractice.lifesciences.section1')}
                           textStyle={{
+                            fontFamily: 'GothamLight',
                             color: 'white',
-                            fontSize: 25,
+                            fontSize: 21,
                           }}
                         />
                         <HoverCard 
@@ -78,6 +80,7 @@ const OurPractice = () => {
                           image={pharmaceuticals}
                           text={parse(t('ourpractice.lifesciences.section2'))}
                           textStyle={{
+                            fontFamily: 'GothamLight',
                             color: 'white',
                             fontSize: 35,
                             fontWeight: 'bold'
@@ -94,6 +97,7 @@ const OurPractice = () => {
                           image={diagnostics}
                           text={parse(t('ourpractice.lifesciences.section3'))}
                           textStyle={{
+                            fontFamily: 'GothamLight',
                             color: 'white',
                             fontSize: 35,
                             fontWeight: 'bold'
@@ -107,8 +111,9 @@ const OurPractice = () => {
                           image={wholesalers}
                           text={t('ourpractice.lifesciences.section4')}
                           textStyle={{
+                            fontFamily: 'GothamLight',
                             color: 'white',
-                            fontSize: 28
+                            fontSize: 24
                           }}
                         />
                       </Box>
@@ -122,6 +127,7 @@ const OurPractice = () => {
                       image={trade}
                       text={parse(t('ourpractice.lifesciences.section5'))}
                       textStyle={{
+                        fontFamily: 'GothamLight',
                         color: 'white',
                         fontSize: 25
                       }}
@@ -153,6 +159,7 @@ const OurPractice = () => {
                       image={ngo}
                       text={t('ourpractice.healthcare.section6')}
                       textStyle={{
+                        fontFamily: 'GothamLight',
                         color: 'white',
                         fontSize: 30,
                       }}
@@ -168,6 +175,7 @@ const OurPractice = () => {
                           image={clinics}
                           text={t('ourpractice.healthcare.section1')}
                           textStyle={{
+                            fontFamily: 'GothamLight',
                             color: 'white',
                             fontSize: 25,
                           }}
@@ -180,6 +188,7 @@ const OurPractice = () => {
                           image={hospitals}
                           text={parse(t('ourpractice.healthcare.section2'))}
                           textStyle={{
+                            fontFamily: 'GothamLight',
                             color: 'white',
                             fontSize: 35,
                             fontWeight: 'bold'
@@ -196,6 +205,7 @@ const OurPractice = () => {
                           image={optical}
                           text={parse(t('ourpractice.healthcare.section3'))}
                           textStyle={{
+                            fontFamily: 'GothamLight',
                             color: 'white',
                             fontSize: 35,
                             fontWeight: 'bold'
@@ -209,6 +219,7 @@ const OurPractice = () => {
                           image={drugstores}
                           text={t('ourpractice.healthcare.section4')}
                           textStyle={{
+                            fontFamily: 'GothamLight',
                             color: 'white',
                             fontSize: 28
                           }}
@@ -224,6 +235,7 @@ const OurPractice = () => {
                       image={consumer}
                       text={parse(t('ourpractice.healthcare.section5'))}
                       textStyle={{
+                        fontFamily: 'GothamLight',
                         color: 'white',
                         fontSize: 25
                       }}

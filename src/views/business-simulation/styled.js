@@ -193,15 +193,15 @@ export const ActiveThumbnail = styled.div`
 
 export const ActiveThumbnailViolator = styled.div`
   background-color: #5c0f8b;
-  width: 290px;
+  width: 190px;
   height: 200px;
   padding-left: 32px;
   cursor: pointer;
 
   h2 {
-    font-size: 43px;
+    font-size: 36px;
     text-transform: uppercase;
-    line-height: .9;
+    line-height: 1.2em;
 
     strong {
       font-family: 'GothamBold';
@@ -210,14 +210,15 @@ export const ActiveThumbnailViolator = styled.div`
 
   @media (max-width: 768px) {
     width: 184px;
-    height: 115px;
+    height: 150px;
     padding-left: 15px;
 
     h2 {
       margin: 0 !important;
 
       span {
-        font-size: 30px !important;
+        font-size: 24px !important;
+        line-height: 1.2em !important;
       }
     }
   }

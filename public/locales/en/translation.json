@@ -53,7 +53,7 @@
       "includesSection": "Includes",
       "execSearch": {
         "title": "Executive Search",
-        "slug": "Our executive search solution use all our set of tools to provide our clients with the right executive at the right time but most importantly with the mindset needed to perfectly fit into his/her new leadership role",
+        "slug": "Our Executive Search solution uses a complete set of tools to provide our Clients with the right Executive at the right time and with the mindset needed to perfectly fit into their new role",
         "includes": {
           "1": "Skilled based deep interview",
           "2": "Executive business simulation scorecard",
@@ -63,7 +63,7 @@
       },
       "targetedSearch": {
         "title": "Targeted Search",
-        "slug": "<p><strong>Our targeted search solution is a simplified path to selecting the right executive:</strong> faster and direct. allows our clients to fill their leadership positions from within a reduced but well suited comparable candidate base</p>",
+        "slug": "<p><strong>Our Targeted Search solution is a simplified path to selecting the right Executive: faster and direct, allows our Clients to fill their Leadership positions from within a reduced but well suited comparable Candidate base</p>",
         "includes": {
           "1": "Skilled based deep interview",
           "2": "Executive business simulation scorecard",
@@ -72,7 +72,7 @@
       },
       "leadership": {
         "title": "Leadership Assessment",
-        "slug": "<p><strong>Our leadership assessment solution combines our two distinctive differentiators:</strong> state of the art executive business simulation with having the candidates straight talk for 90 minutes with our <strong>LAB</strong> members, experienced top HR executives and CEOS. The outcome of both sessions is a comparable easy to read individual scorecard.</p><p>Our leadership assessment is an agile and smart way to compare internal vs external candidates and also to validate potential promotions.</p>",
+        "slug": "<p><strong>Our Leadership Assessment solution combines three distinctive differentiators:</strong> <ul><li>EBS-Executive Business Simulation: designed to expose Candidates to short and long term critical decision making</li><strong><li>The LAB- Leadership Assessment Board: Leadership ‘straight talk’ with experienced top HR Executives and CEOs</li><li>Comparable and easy to read Individual Scorecard</li></ul></p><p>Our Leadership Assessment is an agile and smart way to decide between internal and external Candidates as well as validating potential internal promotions</p>",
         "includes": {
           "1": "Executive business simulation scorecard",
           "2": "Leadership assesment board insights report"
@@ -80,33 +80,33 @@
       },
       "groupSimulation": {
         "title": "Group Simulations",
-        "slug": "<p>Our group simulations are challenging sessions for management board/leadership team members to interact either live or virtually with their peers.</p><p>A \"hands on way\" to sharpen decision making skills and fuel constructive discussions as well as an idea generation forum.</p><p>The groups can work individually or into cleverly designed teams and can drive additional collaboration and team integrations dynamics.</p>",
+        "slug": "<p>Our Group Simulations are challenging sessions for Management Board/Leadership Team members to interact either live or virtually with their peers</p><p>A \"hands on way\" to sharpen decision making skills and fuel constructive discussions as well as an idea generation forum</p><p>The participants may work individually or into cleverly designed teams aimed at fueling collaboration and integration</p>",
         "includes": {
           "1": "Executive business simulation scorecard"
         }
       }
     },
-    "secondaryBanner": "<p><strong>Redefining performance</strong><br /> through exceptional leadership</p>"
+    "secondaryBanner": "<p><strong>Redefining Performance</strong><br /> through Exceptional Leadership</p>"
   },
   "ourpractice": {
     "heading": "Our Practice",
     "lifesciences": {
       "heading": "Lifesciences",
-      "section1": "Distributors",
-      "section2": "Pharmaceuticals",
-      "section3": "Diagnostics",
-      "section4": "Wholesalers",
-      "section5": "Trade <br/><strong>associations</strong>",
+      "section1": "Pharmaceuticals",
+      "section2": "Trade Associations",
+      "section3": "Wholesalers",
+      "section4": "Distributors",
+      "section5": "Diagnostics",
       "section6": "Medical Services"
     },
     "healthcare": {
       "heading": "Healthcare",
       "section1": "Clinics",
-      "section2": "Hospitals",
-      "section3": "Optical Market",
-      "section4": "Drugstores",
-      "section5": "Consumer <strong>healthcare</strong>",
-      "section6": "NGO's"
+      "section2": "Optical Market",
+      "section3": "Hospitals",
+      "section4": "ngo’s",
+      "section5": "Consumer Healthcare",
+      "section6": "Drugstores"
     }
   },
   "differentiators": {
@@ -136,26 +136,26 @@
       "line2": "SCORECARD"
     },
     "section5": {
-      "title": "PROCESS",
-      "line1": "WRAP UP WITH ALL",
-      "line2": "STAKEHOLDERS",
-      "line3": "(NO FIRM EFFECTIVELY DOES IT)",
-      "line4": ""
+      "title": "EFFECTIVE PROCESS CLOSING",
+      "line1": "For every stakeholder:",
+      "line2": "<ul><li>Client</li></ul>",
+      "line3": "<ul><li>Awarded Leader</li></ul>",
+      "line4": "<ul><li>Non selected Candidates &#40;we actually do it&#41;</li></ul>"
     }
   },
   "business": {
     "heading": "Executive Business <br/>Simulation",
      "howEBSworks": {
        "selector": "How EBS<br/><strong>Works?</strong>",
-       "slug": "<p>Under our simulation setting the individual is challenged for 3.5 hours and 4 \"years\" of leading an organization.</p><p>The leader takes several decisions on sales & marketing, investments, operations,talent and many other that impact an array of indicators which eventually are reflected in an comprehensive but easy to read comparable individual scorecard</p>"
+       "slug": "<p>Under our simulation setting the individual is challenged for 3.5 hours and 4 years of virtually leading an organization</p><p>The Leader takes several decisions on sales & marketing, investments, operations, talent and many other that impact an array of indicators which eventually are reflected in an comprehensive but easy to read comparable individual Scorecard</p>"
      },
      "whyEBS": {
       "selector": "Why<br/><strong>EBS?</strong>",
-      "slug": "<p>Executive business simulation is a powerful tool that inmerses the person into a situation that truly resembles real lihe decision making.</p><p>Using a business sim instead of phycological or IQ tests makes a world of difference when assessing or selecting candidates. It is a practical and direct way of identifying exceptional leaders who will transform performance.</p><p>Moreover, if an airliner pilot goes through a flight simulator on average every 6 months why shouldn't an executive? A great number of careers under his/her responsibility and massive but limited resources depend upon complex decisions.</p>"
+      "slug": "<p>Executive Business Simulation is a powerful tool that inmerses the person into a situation that truly resembles real life decision making</p><p>It is a practical and direct way of identifying exceptional Leaders who will Redefine Performance</p><p>An airliner pilot goes through a flight simulation every 6 months on average… why shouldn’t a top Executive? No business year nor market conditions are the same. Hundreds of careers depend upon their decisions. Similarly no flight conditions are alike and the pilot must have the sharpest SA  (Situational Awareness) prior, during and after every flight... the safety of every passenger is at stake</p>"
     },
     "ourSIM": {
       "selector": "Our exclusive<br/><strong>SIM</strong>",
-      "slug": "<p><strong>Under our executive business simulation setting the following skills and candidates are practiced by the individual:</strong></p><ul><li>Prioritizing Information</li><li>Judgement</li><li>Global perspective</li><li>Adaptability</li><li>Complexity management</li><li>Risk taking</li><li>Shaping strategy</li><li>Technology understanding</li><li>Financial sharpness</li></ul><p><strong>And additionally in group simulations:</strong></p><ul><li>Critical thinking</li><li>Collaboration</li><li>Influencing & negotiation</li><li>Cross functional interactions</li></ul>",
+      "slug": "<p><strong>Under our EBS setting the following skills and capabilities are practiced by the individual:</strong></p><ul><li>Contextual Vision</li><li>Judgement</li><li>Global perspective</li><li>Adaptability</li><li>Complexity management</li><li>Risk taking</li><li>Shaping strategy</li><li>Technology understanding</li><li>Financial sharpness</li><li>Talent Insights</li></ul><p><strong>And additionally in group simulations:</strong></p><ul><li>Critical thinking</li><li>Collaboration</li><li>Influencing & negotiation</li><li>Cross functional interactions</li></ul>",
       "simAccess": "SIM Access for registered users:"
     }
   },
@@ -166,7 +166,7 @@
     "gerard": "<p>Managing Partner Integration Consulting</p><p>Member of the Exec. Committee of the firm</p><p>Based in Paris, France</p><p>25 years in international leadership positions Unilever, L'Oréal, Revlon</p><p>Lived and worked in Mexico, France, Spain, Germany, USA</p><p>Former President of IESE alumni chapters from Mexico, France</p><p>Mentor at Endeavor</p>",
     "kurt": "<p>Managing Partner Evanston Wicker</p><p>30 years in Leadership positions at J&J, BD, Essilor Internationa, & Abbott Laboratories</p><p>Multi-Country experience within Latin America and also in the US</p><p>Former AMID Vice President</p>",
     "gerardo": "<p>HR Director JLL Mexico</p><p>28 years at Corporate HR Executive positions at Merck, Grupo Mexico, Aeromexico and Citibank - Regional esperience based both in Brazil & Mexico</p><p>4 yeras as Independent Consultant for International Executive Search Firms</p>",
-    "mauricio": "<p>Senoir Human Resources Executive</p><p>25 years experience in Human Resources</p><p>Multiple industry experience: Warner Lambert, Fuller Cosmetics, Aeromexico, American Standard, BD</p><p>Awarded as Best HR Executive (2016) by Amedirh</p>"
+    "mauricio": "<p>Senoir Human Resources Executive</p><p>30 years at Corporate HR Executive positions at Merck, Grupo Mexico, Aeromexico and Citibank - Regional experience based both in Brazil & Mexico</p><p>Awarded as Best HR Executive (2016) by Amedirh</p>"
   },
   "contact": {
     "heading": "Contact Us",
@@ -187,7 +187,7 @@
     "city": "City",
     "haveRead": "I have read and accept the Terms and Conditions as well as the Privacy Notice",
     "sendButton": "SEND",
-    "disclaimer": "*The personal data you provide will be protected in accordance with the provisions of the General Law of Transparency and Access to Public Information"
+    "disclaimer": "*The personal data you provide will be protected in accordance with the provisions of the General Law of Transparency and Access to Public Information."
   },
   "footer": {
     "copyright": "© 2020 EVANSTON WICKER IBEROAMERICA - ALL RIGHTS RESERVED",

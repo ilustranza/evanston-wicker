@@ -41,7 +41,7 @@
       "line2": "práctica"
     },
     "readmore": "Leer más",
-    "banner": "“Venimos del propio Mercado con una clara visión del talento que las Compañías necesitan para ser las mejores en ése mismo Mercado.”",
+    "banner": "“Venimos del propio Mercado con una clara visión del talento que las compañías necesitan para ser las mejores en ése mismo mercado.”",
     "next": "Siguiente",
     "prev": "Previo"
   },
@@ -53,7 +53,7 @@
       "includesSection": "Incluye",
       "execSearch": {
         "title": "Búsqueda Ejecutiva",
-        "slug": "La búsqueda ejecutiva combina todas nuestras herramientas para proporcionar puntualmente líderes excepcionales a nuestros clientes, con la mentalidad adecuada para tener éxito en su nueva responsabilidad",
+        "slug": "La Búsqueda Ejecutiva combina todas nuestras herramientas, para proporcionar puntualmente a nuestros Clientes, Líderez excepcionales con la mentalidad adecuada para tener éxito en su nueva responsabilidad",
         "includes": {
           "1": "Entrevista <br/> detallada basadas<br/> en habilidades",
           "2": "Scorecard<br/> de la simulación<br /> ejecutiva",
@@ -63,7 +63,7 @@
       },
       "targetedSearch": {
         "title": "Búsqueda Dirigida",
-        "slug": "<p><strong>Nuestra búsqueda dirigida es una solución simplificada para seleccionar al ejecutivo correcto:</strong> directa y rápidamente permite a nuestros clientes contar con sus posiciones de liderazgo de una selecta base de candidatos comparables</p>",
+        "slug": "<p><strong>Nuestra Búsqueda Dirigida es una solución simplificada para seleccionar al Ejecutivo correcto: directa y rápidamente permite a nuestros Clientes contar con sus posiciones de Liderazgo de una selecta base de Candidatos comparables</p>",
         "includes": {
           "1": "Entrevista <br/> detallada basadas<br/> en habilidades",
           "2": "Scorecard<br/> de la simulación<br /> ejecutiva",
@@ -72,7 +72,7 @@
       },
       "leadership": {
         "title": "Perfil de Liderazgo",
-        "slug": "<p><strong>Nuestro perfil de liderazgo combina dos diferenciadores clage:</strong> la mejor simulación de negocios y un encuentro de 90 minutos con los miembros de nuestro <strong>LAB-Leadership Assessment Board</strong> formado por altos ejecutivos y expertos en recursos humanos. Como resultado de ambas sesiones generamos un reporte con indicadores individuales comparables y fáciles de interpretar.</p><p>Se trata de una manera inteligente y ágil de comparar candidatos internos y externos asó como validar potenciales promociones internas.</p>",
+        "slug": "<p><strong>Nuestro Perfil de Liderazgo combina tres diferenciadores clave:</strong><br/> <ul><li> EBS-Executive Business Simulations, exclusiva Simulación Ejecutiva de Negocios </li> <li> El LAB- Leadership Assessment Board, nuestro Consejo de evaluación de Liderazgo </li> <li> Reporte Individual de Indicadores Comparables </li></ul> <br/> Se trata de una manera inteligente y ágil de comparar Candidatos internos y externos así como validar potenciales promociones internas</p>",
         "includes": {
           "1": "Scorecard<br/> de la simulación<br /> ejecutiva",
           "2": "Reporte de <br/> hallazgos del perfil<br/> de liderazgo"
@@ -80,32 +80,34 @@
       },
       "groupSimulation": {
         "title": "Simulaciones de Grupo",
-      "slug": "<p>Nuestras simulaciones de grupo es una forma de desafiar a los miembros del equipo directivo para que interactúen en vivo ó virtualmente con sus colegas.</p><p>De primera mano afinan sus capacidades de toma de decisiones y propician discusiones constructivas pero apasionadas. Es así mismo un foro de generación de nuevas ideas.</p><p>Se puede trabajar individualmente durante la sesión o en equipos diseñados a propósito para generar mayor colaboración y una mejor cohesión dentro de dichos equipos</p>",
+      "slug": "<p>Nuestras Simulaciones de Grupo es una forma de desafiar a los miembros del Equipo directivo para que interactúen en vivo ó virtualmente con sus colegas</p><p>De primera mano afinan sus capacidades de toma decisiones y propician discusiones constructivas pero apasionadas. Es así mismo un foro de generación de nuevas ideas</p><p>Se puede trabajar individualmente durante la sesión ó en Equipos diseñados a propósito para generar mayor colaboración y una mejor cohesión dentro de dichos Equipos</p>",
         "includes": {
           "1": "Scorecard<br/> de la simulación<br /> ejecutiva"
         }
       }
     },
-    "secondaryBanner": "<p><GothamLight>Transformar el desempeño<br /><strong>de nuestros Clientes</strong><br /> por medio de un Liderazgo excepcional</GothamLight></p>"
+    "secondaryBanner": "<p><GothamLight><strong>Reedefiniendo el desempeño</strong><br /> por medio de un Liderazgo Excepcional</GothamLight></p>"
   },
   "ourpractice": {
     "heading": "Nuestra Práctica",
     "lifesciences": {
       "heading": "Ciencias de la salud",
-      "section1": "Distribuidores",
+      "section1": "industria Farmacéutica",
       "section2": "Asociaciones de la <br/><strong>industria</strong>",
-      "section3": "Diagnóstico",
-      "section4": "Mayoristas",
-      "section5": "Industria <strong>farmacéutica</strong>"
+      "section3": "Mayoristas",
+      "section4": "Distribuidores",
+      "section5": "Diagnóstico",
+		"section6": "Dispositivos Médicos"
+		
     },
     "healthcare": {
       "heading": "Cuidados de la salud",
       "section1": "Clínicas",
-      "section2": "Hospitales",
-      "section3": "Mercado Óptico <br> (corporativo, laboratorios y ópticas)",
-      "section4": "Farmacias",
+      "section2": "Mercado Óptico",
+      "section3": "Hospitales",
+      "section4": "ONG’s",
       "section5": "OTC- Consumo",
-      "section6": "ONGs"
+      "section6": "Farmacias"
     }
   },
   "differentiators": {
@@ -123,8 +125,8 @@
     },
     "section3": {
       "title": "ENFASIS",
-      "line1": "INCOMPARABLE TANTO",
-      "line2": "EN LA ADAPTACIÓN CULTURAL",
+      "line1": "TANTO EN LA",
+      "line2": "ADAPTACIÓN CULTURAL",
       "line3": "ESPERADA COMO EN LAS",
       "line4": "HABILIDADES DE NEGOCIO",
       "line5": "ESPECÍFICAS DE LOS CANDIDATOS"
@@ -139,22 +141,22 @@
       "line1": "UN CIERRE DE",
       "line2": "PROCESO CON TODOS",
       "line3": "LOS INVOLUCRADOS",
-      "line4": "(NINGUNA FIRMA LLEVA A CABO EFECTIVAMENTE ESTA PARTE)"
+      "line4": "(lo llevamos a cabo de manera efectiva)"
     }
   },
   "business": {
     "heading": "Simuladores <br/>de negocio",
      "howEBSworks": {
        "selector": "¿Cómo<br/><strong>Funcionan?</strong>",
-       "slug": "<p>En nuestra simulación el candidato es desafiado durante tres horas y media estando al frente de una empresa a lo largo de 4 \"años\".</p><p>El candidato toma decisiones relevantes comercialmente, de inversiones, operaciones, talento y muchas más que impactan una serie de indicadores que a su vez derivan en un scorecard individual completo y comparable</p>"
+       "slug": "<p>En nuestra simulación el candidato es desafiado durante tres horas y media estando al frente de una empresa a lo largo de un período virtual de 4 años</p><p>El Candidato toma decisiones relevantes desde diversos puntos de vista: comercial, de inversiones, ética, financieras y del factor humano que derivan en un scorecard individual completo y comparable</p>"
      },
      "whyEBS": {
       "selector": "¿por<br/><strong>qué?</strong>",
-      "slug": "<p>La simulación ejecutiva de negocios es una poderosa herramienta que sumerge al usuario en una situación que refleja lo que sucede en un caso de frecuentes tomas de decisiones de negocios en la vida real</p><p>Utilizar una simulación de negocios en lugar de pruebas psicológicas o de coeficiente intelectua es una gran diferencia en el momento de evaluar y seleccionar candidatos.</p><p>Es una forma práctica y directa de identificar a líderes excepcionales que transformarán el desempeño de nuestros clientes</p><p>Un piloto de una línea aérea debe someterse a un simulador de vuelo cada 6 meses en promedio. ¿por qué un alto ejecutivo no lo debería hacer también? Un gran número de personas y el futuro de sus carreras dependen de las decisiones bajo su responsabilidad y ademas una cantidad enorme pero al mismo tiempo limitada de recursos.</p>"
+      "slug": "<p>La Simulación Ejecutiva de Negocios es una poderosa herramienta que sumerge al usuario en una situación que refleja lo que sucede en un caso de frecuentes tomas de decisiones de negocios en la vida real. Es una forma práctica y directa de identificar a Líderes excepcionales que transformarán el desempeño de nuestros Clientes</p><p>Un piloto de una línea aérea debe someterse a un simulador de vuelo cada 6 meses en promedio, ¿por qué un alto Ejecutivo no lo debería hacer también? No hay en los negocios un año igual a otro ni las condiciones permanecen iguales. De igual forma no hay condiciones de vuelo iguales y el piloto debe tener una afinada consciencia situacional antes, durante y después de cada vuelo… el bienestar de cada pasajero depende de ello</p>"
     },
     "ourSIM": {
       "selector": "Nuestra SIM<br/><strong>Exclusiva</strong>",
-      "slug": "<p><strong>Bajo el ambiente de la simulación de negoios el usuario practica y afina las siguientes capacidades y habilidades:</strong></p><ul><li>Priorización de la información</li><li>Criterio</li><li>Perspectiva global</li><li>Adaptabilidad</li><li>Manejo de la complejidad</li><li>Toma de riesgos</li><li>Determinación de estrategias</li><li>Entendimineto de la tecnología</li><li>Agudeza financiera</li></ul><p><strong>Adicionalmente en las simulaciones de grupo:</strong></p><ul><li>Pensamiento crítico</li><li>Colaboración</li><li>Influencia y negociación</li><li>Mayor interacción con otras áreas</li></ul>",
+      "slug": "<p><strong>Bajo el ambiente de la Simulación de Negocios el usuario practica y afina las siguientes capacidades y habilidades:</strong></p><ul><li>Visión del Contexto</li><li>Criterio</li><li>Perspectiva global</li><li>Adaptabilidad</li><li>Manejo de la complejidad</li><li>Toma de riesgos</li><li>Determinación de estrategias</li><li>Entendimineto de la tecnología</li><li>Agudeza financiera</li><li>Desarrollo de Talento</li></ul><p><strong>Adicionalmente en las simulaciones de grupo:</strong></p><ul><li>Pensamiento crítico</li><li>Colaboración</li><li>Influencia y negociación</li><li>Interacción de calidad con otras áreas</li></ul>",
       "simAccess": ""
     }
   },
@@ -163,12 +165,12 @@
     "viviana": "<p>Consultora, Autora y Conferencista especializada en Liderazgo en los Negocios y en Desarrollo personal</p><p>20 años en posiciones de Liderazgo en BD Mexico, BD Corporativo, Glaxo Smithkline y en 3M</p><p>Experiencia internacional en Estados Unidos, México & América Central</p>",
     "gerard": "<p>Socio Director en Integration Consulting y Miembro del Comité Ejecutivo de la Firma</p><p>Basado en París, Francia</p><p>25 años en posiciones internacionales de liderazgo en Unilever, L'Oréal, Revlon</p><p>Ha trabajado y vivido en México, Francia, España, Alemania y Estados Unidos</p><p>Ex Presidente de los Capítulos de ex alumnos IESE en México y Francia</p><p>Mentor en Endeavor</p>",
     "kurt": "<p>Socio Director en Evanston Wicker</p><p>30 años en posiciones de Liderazgo en Johnson & Johnson, BD, Essilor International y Abbott Laboratories</p><p>Experiencia en la mayoría de países de Latinoamérica y en Estados Unidos</p><p>Vicepresidente de AMID 2013-14</p>",
-    "gerardo": "<p>Director de Recursos Humanos JLL Mexico</p><p>28 años de experiencia en posiciones Corporativas de Recursos Humanos en Merck, Grupo México, Aeromexico y Citibank</p><p>Experiencia Regional basado tanto en México como en Brazil - Más de 4 años como Consultor independiente para firmas internacionales de Búsqueda Ejecutiva</p>",
+    "gerardo": "<p>Director de Recursos Humanos JLL Mexico</p><p>30 años de experiencia en posiciones Corporativas de Recursos Humanos en Merck, Grupo México, Aeromexico y Citibank</p><p>Experiencia Regional basado tanto en México como en Brazil - Más de 4 años como Consultor independiente para firmas internacionales de Búsqueda Ejecutiva</p>",
     "mauricio": "<p>Ejecutivo experto en Recursos Humanos con más de 25 años en el ramo</p><p>Experiencia en múltiples industrias con Warner Lambert, Fuller Cosmetics, Aeromexico, American Standard, BD.</p><p>Reconocido por la Amedirh como el mejor Ejecutivo de Recursos Humanos (2016)</p>"
   },
   "contact": {
     "heading": "Contáctanos",
-    "address": "NUESTRA OFICINA EN LA CIUDAD <br/>DE MEXICO SE ENCUENTRA EN:",
+    "address": "NUESTRA OFICINA EN LA CIUDAD DE<br/> MEXICO SE ENCUENTRA EN:",
     "phone1": "En Mexico",
     "phone2": "Desde USA",
     "form": "O BIEN LLENE EL FORMATO ANEXO",

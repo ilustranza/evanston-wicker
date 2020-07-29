@@ -96,10 +96,10 @@ const BusinessSimulation = () => {
                 size="30px"
               />
               <h2 style={{ 
-                margin: activeThumb === 2 ? 0 : '.83em 0',
-                lineHeight: activeThumb === 2 &&  i18n.language !== 'es'? .6 : lineHeight
+                margin: activeThumb === 2 ? '0.75em 0' : '1em 0',
+                lineHeight: activeThumb === 2 ? '0.8em' : '1em'
               }}>
-                <GothamLight size={activeThumb === 2 ? 48 : thumbFontSize}>{parse(t(slides[activeThumb].selector))}</GothamLight>
+                <GothamLight>{parse(t(slides[activeThumb].selector))}</GothamLight>
               </h2>
             </ActiveThumbnailViolator>
           </ActiveThumbnail>

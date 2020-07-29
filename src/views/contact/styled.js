@@ -31,7 +31,7 @@ export const MainContainer = styled.div`
 export const Blackbox = styled.div`
   height: auto;
   width: 30vw;
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0,0,0,.7);
   padding: 0 50px;
   display: flex;
   flex-direction: column;
@@ -160,7 +160,8 @@ export const ContactItem = styled.div`
 `
 
 export const Icon = styled.div`
-  width: 80px;
+  height: 30px;
+  width: 60px !important;
 `
 
 export const SendButton = styled.button`

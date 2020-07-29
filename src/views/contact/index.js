@@ -23,7 +23,8 @@ const Contact = () => {
     <MainContainer>
       <Blackbox>
         <HorizontalDivider width={4} size={40} />
-        <h2>{t('contact.heading')}</h2>
+        <HorizontalDivider borderWidth={2} marginTop={16} marginBottom={25} size="45px" />
+        <h2><GothamLight textTransform={'uppercase'}>{t('contact.heading')}</GothamLight></h2>
         <ContactItem>
           <Icon>
             <svg 
@@ -35,8 +36,8 @@ const Contact = () => {
               viewBox="0 0 25 32" 
               style={{ 
                 enableBackground: 'new 0 0 25 32',
-                width: 25,
-                height: 32
+                width: 20,
+                height: 20
               }}
               xmlSpace="preserve"
             >
@@ -51,7 +52,7 @@ const Contact = () => {
             </svg>
           </Icon>
           <p>
-            <GothamLight><strong>{parse(t('contact.address'))}</strong><br />
+            <GothamLight size={13}><strong>{parse(t('contact.address'))}</strong><br />
             Guillermo Gonzalez Camarena 600 <br/>
             4A-63 Santa Fe 01210 CDMX, Mexico
             </GothamLight>
@@ -68,8 +69,8 @@ const Contact = () => {
               viewBox="0 0 31 32" 
               style={{ 
                 enableBackground: 'new 0 0 31 32',
-                width: 31,
-                height: 32
+                width: 20,
+                height: 20
               }}
               xmlSpace="preserve"
             >
@@ -89,7 +90,7 @@ const Contact = () => {
             </svg>
           </Icon>
           <p>
-            <GothamLight>
+            <GothamLight size={13}>
               <strong>{t('contact.phone1')}</strong> 55 5081 8432 / 55 4390 8004<br />
               <strong>{t('contact.phone2')}</strong> (954) 399 6089<br />
             </GothamLight>
@@ -106,8 +107,8 @@ const Contact = () => {
               viewBox="0 0 32.9 40" 
               style={{ 
                 enableBackground: 'new 0 0 32.9 40',
-                width: 31,
-                height: 32
+                width: 20,
+                height: 20
               }}
               xmlSpace="preserve"
             >
@@ -127,7 +128,7 @@ const Contact = () => {
             </svg>
           </Icon>
           <p>
-            <GothamLight>
+            <GothamLight size={13}>
               <strong>{t('contact.form')}</strong>
             </GothamLight>
           </p>
@@ -143,8 +144,8 @@ const Contact = () => {
               viewBox="0 0 32.9 23.1" 
               style={{ 
                 enableBackground: 'new 0 0 32.9 23.1',
-                width: 31,
-                height: 32
+                width: 20,
+                height: 20
               }}
               xmlSpace="preserve"
             >
@@ -157,9 +158,8 @@ const Contact = () => {
             </svg>
           </Icon>
           <p>
-            <GothamLight>
-              <strong>{t('contact.email')}</strong><br />
-              clientservices@evanston-wicker.com
+            <GothamLight size={13}><strong>{parse(t('contact.email'))}</strong><br />
+            clientservices@evanston-wicker.com
             </GothamLight>
           </p>
         </ContactItem>
