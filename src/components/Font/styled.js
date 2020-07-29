@@ -14,6 +14,9 @@ export const GothamBold = styled.span`
   font-family: 'GothamBold';
   color: ${props => props.color || 'inherit'};
   line-height: ${props => props.lineHeight || 'unset'};
+  letter-spacing: ${props => props.letterSpacing || 'unset'};
+  margin: ${props => props.margin || 'unset'};
+  margin-bottom: ${props => props.marginBottom || 'unset'};
 `
 
 export const GothamBook = styled.span`
@@ -36,6 +39,9 @@ export const GothamLight = styled.span`
   font-size: ${props => `${props.size}px` || 'inherit'};
   font-family: 'GothamLight';
   line-height: ${props => props.lineHeight || 'unset'};
+  letter-spacing: ${props => props.letterSpacing || 'unset'};
+  margin: ${props => props.margin || 'unset'};
+  margin-bottom: ${props => props.marginBottom || 'unset'};
 `
 
 export const Didot = styled.span`

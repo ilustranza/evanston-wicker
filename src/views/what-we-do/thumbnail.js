@@ -9,7 +9,7 @@ const Thumbnail = ({ image, title, isActive }) => {
       onMouseLeave={() => setHover(false)} 
       active={isHovered || isActive}
     >
-      <img src={image} alt={title} style={{ left: 0, width: 260 }} />
+      <img src={image} alt={title} style={{ left: 0, height: '100%' }} />
       <ThumbnailBanner>
         <HorizontalDivider borderWidth={2} size="30px" marginBottom={15}/>
         {title}

@@ -10,7 +10,8 @@ export const EBSContainer = styled.div`
   width: 100%;
   height: 660px;
   background-image: url(${ebsBg});
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -40,7 +41,8 @@ export const EBSContainer = styled.div`
 export const LabContainer = styled.div`
   background-color: #2a2a2a;
   background-image: url(${labBg});
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   width: 100%;
   height: 620px;
   display: flex;
@@ -57,7 +59,8 @@ export const EmphasisContainer = styled.div`
   width: 100%;
   height: 618px;
   background-image: url(${emBg});
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -73,7 +76,8 @@ export const EmphasisContainer = styled.div`
 export const ComprehensiveContainer = styled.div`
   background-color: #2a2a2a;
   background-image: url(${comBg});
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   width: 100%;
   height: 620px;
   display: flex;
@@ -90,7 +94,8 @@ export const ProcessContainer = styled.div`
   width: 100%;
   height: 618px;
   background-image: url(${proBg});
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: flex-start;
   justify-content: center;

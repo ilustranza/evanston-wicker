@@ -101,10 +101,10 @@ export const AllPurple = styled.div`
 ` 
 
 export const BlackBox = styled.div`
-  width: 455px;
+  min-width: 455px;
   height: 135px;
   background-color: rgba(0,0,0,.8);
-  padding-left: 45px;
+  padding: 0 45px;
   display: flex;
   align-items: center;
   justify-content: flex-start;

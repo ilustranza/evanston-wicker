@@ -60,16 +60,18 @@ export const AllDarkGray = styled.div`
 `
 
 export const AllPurple = styled.div`
-  height: 630px;
   width: 100%;
   background-color: #2d0545;
   background-image: url(${heroBg});
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   color: white;
   flex-direction: column;
+  padding-bottom: 45px;
   
   h2 {
     margin-right: 100px;
@@ -92,7 +94,7 @@ export const AllPurple = styled.div`
 
 export const BlackBox = styled.div`
   width: 800px;
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0,0,0,.7);
   padding: 40px;
   display: flex;
   align-items: center;
@@ -165,7 +167,10 @@ export const BlackSelector = styled.div`
   justify-content: center;
 
   & > div {
-    margin-right: 45px;
+    height: 180px;
+    width: 100%;
+    max-width: 380px;
+    margin-right: 40px;
 
     &:last-child {
       margin-right: 0;
@@ -193,8 +198,10 @@ export const HorizontalDivider = styled.div`
 `
 
 export const ThumbnailContainer = styled.div`
-  width: 340px;
+  width: 100%;
+  height: 100%;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   position: relative;
   opacity: ${props => props.active ? 1 : .75};
@@ -224,7 +231,9 @@ export const ThumbnailBanner = styled.div`
 export const MainContainer = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
+  position: relative;
   align-content: center;
 
   @media (max-width: 768px) {

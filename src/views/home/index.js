@@ -55,7 +55,8 @@ const Home = () => {
           renderArrowNext={(onClickHandler, hasNext, label) =>
               true && (
                 <RightArrow onClick={onClickHandler}>
-                  <GothamBook color="white" size={16}>{t('home.next')}</GothamBook>
+                  <GothamBook color="white" size={16}>{t('home.next')}</GothamBook> 
+
                   <svg 
                     xmlns="http://www.w3.org/2000/svg"
                     width="32.5px" height="49.5px">
@@ -118,15 +119,15 @@ const Home = () => {
       <AllPurple>
         <Right>
           <h2>
-            <GothamLight size="90px">{t('home.ourpractice.line1')}</GothamLight>
+            <GothamLight size="90px" marginBottom={'0.25em'} >{t('home.ourpractice.line1')}</GothamLight>
             <GothamBold size="90px">{t('home.ourpractice.line2')}</GothamBold>
           </h2>
           <ul>
             <li><GothamLight>{t('ourpractice.lifesciences.heading')}</GothamLight></li>
             <li><GothamLight>{t('ourpractice.healthcare.heading')}</GothamLight></li>
           </ul>
-          <SkewedButton href="/our-practice" color="white" bgColor="#540b80">
-            <GothamBold>{t('home.readmore')}</GothamBold>
+          <SkewedButton href="/our-practice" color="white" bgColor="#540b80" width={'160px'}>
+            <GothamBold letterSpacing={'1pt'} >{t('home.readmore')}</GothamBold>
           </SkewedButton>
         </Right>
         <Left>

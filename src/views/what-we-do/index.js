@@ -70,7 +70,7 @@ const WhatWeDo = () => {
       <AllDarkGray>
         <div>
           {parse(t('whatwedo.secondaryBanner'))}
-          <Didot className="tilde">~</Didot>
+          <Didot className="tilde"></Didot>
           <img src={Logo} width="120px" height="31px" alt="logo" />
         </div>
       </AllDarkGray>

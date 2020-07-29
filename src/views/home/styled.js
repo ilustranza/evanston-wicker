@@ -394,7 +394,7 @@ export const RightArrow = styled.div`
   top: 507px;
   left: 550px;
   z-index: 1;
-  width: 100px;
+  width: 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;

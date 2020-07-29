@@ -5,6 +5,7 @@ export const SkewedContainer = styled.a`
   transform: skew(-16deg, 0);
   padding: ${props => props.small ? '5px' : '15px'};
   width: ${props => props.small ? '110px' : '250px'};
+  width: ${props => props.width !== undefined ? props.width : (props.small ? '110px' : '250px')};
   text-transform: uppercase;
   background-color: ${props => props.bgColor || 'transparent'};
   text-align: center;
@@ -17,6 +18,7 @@ export const SkewedContainer = styled.a`
     padding: 20px;
     border: 2px solid white;
   }
+
 `
 
 export const SkewedContent = styled.div`
