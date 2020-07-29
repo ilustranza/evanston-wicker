@@ -324,6 +324,14 @@ export const OtherContainer = styled.div`
     margin-top: 0;
   }
 
+  .leftColumn {
+
+    & > div.readmore_button {
+      display: none;
+    }
+
+  }
+
   @media (max-width: 900px) {
     padding: 50px 20px;
     width: calc(100vw - 40px);
@@ -345,9 +353,14 @@ export const OtherContainer = styled.div`
       justify-content: center;
       flex-direction: column;
 
-
       & > div {
         display: none;
+      }
+
+      & > div.readmore_button {
+        display: initial;
+        margin-top: 45px;
+        text-align: center;
       }
 
       img {
@@ -358,6 +371,7 @@ export const OtherContainer = styled.div`
     .rightColumn {
       display: none;
     }
+
   }
 `
 
@@ -394,7 +408,7 @@ export const RightArrow = styled.div`
   top: 507px;
   left: 550px;
   z-index: 1;
-  width: 120px;
+  width: ${props => props.width || '110px'};
   display: flex;
   align-items: center;
   justify-content: space-between;

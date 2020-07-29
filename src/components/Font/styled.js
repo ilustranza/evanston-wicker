@@ -17,7 +17,7 @@ export const GothamBold = styled.span`
   letter-spacing: ${props => props.letterSpacing || 'unset'};
   margin: ${props => props.margin || 'unset'};
   margin-bottom: ${props => props.marginBottom || 'unset'};
-  text-transform: initial;
+  text-transform: ${props => props.textTransform || 'initial'};
 `
 
 export const GothamBook = styled.span`

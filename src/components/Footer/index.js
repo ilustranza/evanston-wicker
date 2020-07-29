@@ -9,7 +9,9 @@ import facebookIcon  from '../../static/images/facebook.png'
 import linkedinIcon  from '../../static/images/linkedin.png'
 import { Box } from 'gestalt'
 import { WhiteLogo } from '../Icons'
+
 const Footer = () => {
+
   const { t } = useTranslation()
 
   return (
@@ -59,8 +61,8 @@ const Footer = () => {
       </FooterContainer>
       <SecondaryFooter>
         <SecondaryFooterWrapper>
-          <GothamBold>{t('footer.copyright')}</GothamBold>
-          <GothamBold>{t('footer.tandc')} | {t('footer.privacyPolicy')} | {t('footer.privacyNotice')}</GothamBold>
+          <GothamBold className='footer_paragraph1'>{t('footer.copyright')}</GothamBold>
+          <GothamBold className='footer_paragraph2' textTransform={'uppercase'}>{t('footer.tandc')} | {t('footer.privacyPolicy')} | {t('footer.privacyNotice')}</GothamBold>
         </SecondaryFooterWrapper>
       </SecondaryFooter>
     </>

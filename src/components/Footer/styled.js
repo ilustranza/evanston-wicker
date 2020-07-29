@@ -2,13 +2,14 @@ import styled from 'styled-components'
 
 export const FooterContainer = styled.div`
   background-color: black;
-  height: 530px;
+  height: auto;
   display: flex;
   align-items: center;
+  padding: 45px 0;
 
   @media (max-width: 768px) {
     height: auto;
-    padding-top: 35px;
+    padding: 45px;
   }
 `
 export const SecondaryFooter = styled.div`
@@ -32,6 +33,17 @@ export const SecondaryFooterWrapper = styled.div`
 
   @media (max-width: 768px) {
     font-size: 9px;
+    width: 100%;
+
+      & > .footer_paragraph1 {
+        margin: 0 20px;
+      }
+
+      & > .footer_paragraph2 {
+        margin: 0 20px;
+        text-align: right;
+      }
+
   }
 `
 
@@ -90,12 +102,12 @@ export const FooterNav = styled.nav`
     }
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 768px) {
     padding: 0 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 38%;
+    height: 120px;
 
     a {
       font-size: 12px;

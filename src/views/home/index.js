@@ -31,7 +31,9 @@ import linkedinIcon  from '../../static/images/linkedin.png'
 
 const Home = () => {
 
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+
+  const arrowWidth = i18n.language === 'es' ? '120px' : '95px';
 
   return (
     <>
@@ -54,7 +56,7 @@ const Home = () => {
           }
           renderArrowNext={(onClickHandler, hasNext, label) =>
               true && (
-                <RightArrow onClick={onClickHandler}>
+                <RightArrow onClick={onClickHandler} width={arrowWidth}>
                   <GothamBook color="white" size={16}>{t('home.next')}</GothamBook> 
 
                   <svg 
@@ -141,6 +143,11 @@ const Home = () => {
           </ShadowText>
           <HorizontalDivider width={700} marginBottom={45} borderWidth={4}/>
           <img src={Logo} width="120px" height="31px" alt="logo" />
+          <div className="readmore_button">
+            <SkewedButton width={'120px !important'} href="/us" color="white" bgColor="transparent">
+              <GothamBold>{t('home.readmore')}</GothamBold>
+            </SkewedButton>
+          </div>
         </div>
         <div className="rightColumn">
           <HorizontalDivider width={60} marginBottom={20} borderWidth={4}/>
