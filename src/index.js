@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'gestalt/dist/gestalt.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import './i18n';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Suspense fallback={null}>
     <App />
-  </React.StrictMode>,
+  </Suspense>,
   document.getElementById('root')
 );
 

@@ -1,24 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header'
+import Footer from './components/Footer'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
+
+import Home from './views/home'
+import WhatWeDo from './views/what-we-do'
+import OurPractice from './views/our-practice'
+import KeyDifferentiators from './views/differentiators'
+import BusinessSimulation from './views/business-simulation'
+import LabBoard from './views/lab'
+import Contact from './views/contact'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ display: 'flex', flexDirection: 'column'}}>
+      <Router>
+        <Header />
+          <Switch>
+            <Route exact path="/"><Home /></Route>
+            <Route exact path="/what-we-do"><WhatWeDo /></Route>
+            <Route exact path="/our-practice"><OurPractice /></Route>
+            <Route exact path="/key-differentiators"><KeyDifferentiators /></Route>
+            <Route exact path="/business-simulation"><BusinessSimulation /></Route>
+            <Route exact path="/lab-board"><LabBoard /></Route>
+            <Route exact path="/contact"><Contact /></Route>
+          </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 }

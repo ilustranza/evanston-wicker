@@ -1,0 +1,198 @@
+{
+  "topnav" : {
+    "menu" : {
+      "headings": {
+        "html": {
+          "whatwedo": "<div>WHAT<br/><strong>WE DO</strong></div>",
+          "ourpractice": "<div>OUR<br/><strong>PRACTICE</strong></div>",
+          "keydiff": "<div>KEY<br/><strong>DIFFERENTIATORS</strong></div>",
+          "businesslab": "<div>EXECUTIVE BUSINESS<br/><strong>SIMULATION</strong></div>",
+          "labboard": "<div>LAB<br/><strong>BOARD</strong></div>",
+          "contact": "<div><strong>CONTACT</strong></div>"
+        },
+        "plain": {
+          "whatwedo": "WHAT WE DO",
+          "ourpractice": "OUR PRACTICE",
+          "keydiff": "KEY DIFFERENTIATORS",
+          "businesslab": "EXECUTIVE BUSINESS SIMULATION",
+          "labboard": "LAB BOARD",
+          "contact": "CONTACT"
+        }
+      }
+    }
+  },
+  "home": {
+    "carousel": {
+      "slide1": {
+        "line1": "What",
+        "line2": "we do"
+      },
+      "slide2": {
+        "line1": "Executive",
+        "line2": "Business Simulation"
+      },
+      "slide3": {
+        "line1": "Us",
+        "line2": ""
+      }
+    },
+    "ourpractice": {
+      "line1": "Our",
+      "line2": "Practice"
+    },
+    "readmore": "Read more",
+    "banner": "“We come from the market with a clear vision of what companies really need to be #1... in the market.”",
+    "next": "NEXT",
+    "prev": "PREV"
+  },
+  "whatwedo": {
+    "selector": {
+      "execSearch": "Búsqueda <strong>Ejecutiva</strong>"
+    },
+    "main": {
+      "includesSection": "Includes",
+      "execSearch": {
+        "title": "Executive Search",
+        "slug": "Our executive search solution use all our set of tools to provide our clients with the right executive at the right time but most importantly with the mindset needed to perfectly fit into his/her new leadership role",
+        "includes": {
+          "1": "Skilled based deep interview",
+          "2": "Executive business simulation scorecard",
+          "3": "Leadership assesment board insights report",
+          "4": "Multidirectional reference study"
+        }
+      },
+      "targetedSearch": {
+        "title": "Targeted Search",
+        "slug": "<p><strong>Our targeted search solution is a simplified path to selecting the right executive:</strong> faster and direct. allows our clients to fill their leadership positions from within a reduced but well suited comparable candidate base</p>",
+        "includes": {
+          "1": "Skilled based deep interview",
+          "2": "Executive business simulation scorecard",
+          "3": "Leadership assesment board insights report"
+        }
+      },
+      "leadership": {
+        "title": "Leadership Assessment",
+        "slug": "<p><strong>Our leadership assessment solution combines our two distinctive differentiators:</strong> state of the art executive business simulation with having the candidates straight talk for 90 minutes with our <strong>LAB</strong> members, experienced top HR executives and CEOS. The outcome of both sessions is a comparable easy to read individual scorecard.</p><p>Our leadership assessment is an agile and smart way to compare internal vs external candidates and also to validate potential promotions.</p>",
+        "includes": {
+          "1": "Executive business simulation scorecard",
+          "2": "Leadership assesment board insights report"
+        }
+      },
+      "groupSimulation": {
+        "title": "Group Simulations",
+        "slug": "<p>Our group simulations are challenging sessions for management board/leadership team members to interact either live or virtually with their peers.</p><p>A \"hands on way\" to sharpen decision making skills and fuel constructive discussions as well as an idea generation forum.</p><p>The groups can work individually or into cleverly designed teams and can drive additional collaboration and team integrations dynamics.</p>",
+        "includes": {
+          "1": "Executive business simulation scorecard"
+        }
+      }
+    },
+    "secondaryBanner": "<p><strong>Redefining performance</strong><br /> through exceptional leadership</p>"
+  },
+  "ourpractice": {
+    "heading": "Our Practice",
+    "lifesciences": {
+      "heading": "Lifesciences",
+      "section1": "Distributors",
+      "section2": "Pharmaceuticals",
+      "section3": "Diagnostics",
+      "section4": "Wholesalers",
+      "section5": "Trade <br/><strong>associations</strong>",
+      "section6": "Medical Services"
+    },
+    "healthcare": {
+      "heading": "Healthcare",
+      "section1": "Clinics",
+      "section2": "Hospitals",
+      "section3": "Optical Market",
+      "section4": "Drugstores",
+      "section5": "Consumer <strong>healthcare</strong>",
+      "section6": "NGO's"
+    }
+  },
+  "differentiators": {
+    "heading": "Key Differentiators",
+    "section1": {
+      "title": "EBS",
+      "line1": "EXECUTIVE BUSINESS",
+      "line2": "SIMULATION"
+    },
+    "section2": {
+      "title": "LAB",
+      "line1": "LEADERSHIP",
+      "line2": "ASSESSMENT BOARD",
+      "line3": ""
+    },
+    "section3": {
+      "title": "EMPHASIS",
+      "line1": "IN BOTH",
+      "line2": "CULTURAL FIT",
+      "line3": "AND SPECIFIC BUSINESS SKILLS",
+      "line4": "OF CANDIDATES",
+      "line5": ""
+    },
+    "section4": {
+      "title": "COMPREHENSIVE",
+      "line1": "COMPARABLE CANDIDATE",
+      "line2": "SCORECARD"
+    },
+    "section5": {
+      "title": "PROCESS",
+      "line1": "WRAP UP WITH ALL",
+      "line2": "STAKEHOLDERS",
+      "line3": "(NO FIRM EFFECTIVELY DOES IT)",
+      "line4": ""
+    }
+  },
+  "business": {
+    "heading": "Executive Business <br/>Simulation",
+     "howEBSworks": {
+       "selector": "How EBS<br/><strong>Works?</strong>",
+       "slug": "<p>Under our simulation setting the individual is challenged for 3.5 hours and 4 \"years\" of leading an organization.</p><p>The leader takes several decisions on sales & marketing, investments, operations,talent and many other that impact an array of indicators which eventually are reflected in an comprehensive but easy to read comparable individual scorecard</p>"
+     },
+     "whyEBS": {
+      "selector": "Why<br/><strong>EBS?</strong>",
+      "slug": "<p>Executive business simulation is a powerful tool that inmerses the person into a situation that truly resembles real lihe decision making.</p><p>Using a business sim instead of phycological or IQ tests makes a world of difference when assessing or selecting candidates. It is a practical and direct way of identifying exceptional leaders who will transform performance.</p><p>Moreover, if an airliner pilot goes through a flight simulator on average every 6 months why shouldn't an executive? A great number of careers under his/her responsibility and massive but limited resources depend upon complex decisions.</p>"
+    },
+    "ourSIM": {
+      "selector": "Our exclusive<br/><strong>SIM</strong>",
+      "slug": "<p><strong>Under our executive business simulation setting the following skills and candidates are practiced by the individual:</strong></p><ul><li>Prioritizing Information</li><li>Judgement</li><li>Global perspective</li><li>Adaptability</li><li>Complexity management</li><li>Risk taking</li><li>Shaping strategy</li><li>Technology understanding</li><li>Financial sharpness</li></ul><p><strong>And additionally in group simulations:</strong></p><ul><li>Critical thinking</li><li>Collaboration</li><li>Influencing & negotiation</li><li>Cross functional interactions</li></ul>",
+      "simAccess": "SIM Access for registered users:"
+    }
+  },
+  "lab": {
+    "heading": "Lab",
+    "subheading": "Leadership ASsessment Board",
+    "viviana": "<p>Consultant, writer & speaker specialized in leadership, business & personal development.</p><p>20 years in Leadership positions at BD Mexico, BD Corporate, GSK and 3M.</p><p>International experience in USA, Mexico & Central America</p>",
+    "gerard": "<p>Managing Partner Integration Consulting</p><p>Member of the Exec. Committee of the firm</p><p>Based in Paris, France</p><p>25 years in international leadership positions Unilever, L'Oréal, Revlon</p><p>Lived and worked in Mexico, France, Spain, Germany, USA</p><p>Former President of IESE alumni chapters from Mexico, France</p><p>Mentor at Endeavor</p>",
+    "kurt": "<p>Managing Partner Evanston Wicker</p><p>30 years in Leadership positions at J&J, BD, Essilor Internationa, & Abbott Laboratories</p><p>Multi-Country experience within Latin America and also in the US</p><p>Former AMID Vice President</p>",
+    "gerardo": "<p>HR Director JLL Mexico</p><p>28 years at Corporate HR Executive positions at Merck, Grupo Mexico, Aeromexico and Citibank - Regional esperience based both in Brazil & Mexico</p><p>4 yeras as Independent Consultant for International Executive Search Firms</p>",
+    "mauricio": "<p>Senoir Human Resources Executive</p><p>25 years experience in Human Resources</p><p>Multiple industry experience: Warner Lambert, Fuller Cosmetics, Aeromexico, American Standard, BD</p><p>Awarded as Best HR Executive (2016) by Amedirh</p>"
+  },
+  "contact": {
+    "heading": "Contact Us",
+    "address": "OUR MEXICO CITY OFFICE IS LOCATED AT:",
+    "phone1": "In Mexico",
+    "phone2": "In the US",
+    "form": "PLEASE FILL THE FORM ON THIN SCREEN",
+    "email": "E-MAIL US AT:",
+    "readOur": "To fill the form, please read our",
+    "privacyButton": "Privacy Notice, here",
+    "fName": "First Name",
+    "lName": "Last Name",
+    "company": "Company",
+    "job": "Job Title",
+    "emailAddress": "E-mail Address",
+    "phone": "Phone Number",
+    "country": "Country",
+    "city": "City",
+    "haveRead": "I have read and accept the Terms and Conditions as well as the Privacy Notice",
+    "sendButton": "SEND",
+    "disclaimer": "*The personal data you provide will be protected in accordance with the provisions of the General Law of Transparency and Access to Public Information"
+  },
+  "footer": {
+    "copyright": "© 2020 EVANSTON WICKER IBEROAMERICA - ALL RIGHTS RESERVED",
+    "tandc": "Terms and Conditions",
+    "privacyPolicy": "Privacy Policy",
+    "privacyNotice": "Privacy Notice"
+  }
+}
