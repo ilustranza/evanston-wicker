@@ -44,6 +44,12 @@ export const GothamLight = styled.span`
   margin: ${props => props.margin || 'unset'};
   margin-bottom: ${props => props.marginBottom || 'unset'};
   text-transform: ${props => props.textTransform || 'initial'};
+
+  span {
+    font-family: 'GothamBold';
+    background-color: #8a49b2;
+    padding: 0.1em 0.25em;
+  }
 `
 
 export const Didot = styled.span`

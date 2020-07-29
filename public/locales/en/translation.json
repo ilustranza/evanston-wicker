@@ -143,6 +143,33 @@
       "line4": "<ul><li>Non selected Candidates &#40;we actually do it&#41;</li></ul>"
     }
   },
+  "us": {
+    "heading": "Key Us",
+    "section1": {
+      "title": "US",
+      "line1": "We are a High-End Retained Executive Search Firm",
+      "line2": "Our practice includes Executive positions in",
+      "line3": "• Life Sciences Companies",
+      "line4": "• Healthcare Organizations",
+      "line5": "• CEO positions in adjacent industries",
+      "line6": "Our geographic scope is Latin America with positions based both within Latin America and in the US",
+      "line7": "The Firm uses differentiated tools to provide our Clients with the Best and the Brightest Leaders and also uses Industry insights like no other consulting firm. We come from the market with a clear vision of what companies really need to be #1 ... in the market."
+    },
+    "section2": {
+      "title": "PURPOSE",
+      "line1": "Redefining Performance through Exceptional Leadership"
+    },
+    "section3": {
+      "title": "VALUES",
+      "line1": "• We treat everyone with <span>Respect</span>: out Team, the Candidates, our Clients and very stakeholder we interact with",
+      "line2": "• We drive superior <span>Quality</span> in everything we do: we understand that we are dealing with the future Leaders of outstanding Organizations",
+      "line3": "• We deliver <span>Results</span> through High Performance tools:",
+      "line3A": "I. Our exclusive EBS-Executive Business Simulation",
+      "line3B": "II. The LAB- Leadership Assessment Board</span>",
+      "line4": "• <span>Integrity</span> drives the highest standards of our Ethical Conduct",
+      "line5": "• We assume full <span>Responsability</span> towards our Community, The Environment and before the Authorities"
+    }
+  },
   "business": {
     "heading": "Executive Business <br/>Simulation",
      "howEBSworks": {

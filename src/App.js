@@ -14,6 +14,7 @@ import KeyDifferentiators from './views/differentiators'
 import BusinessSimulation from './views/business-simulation'
 import LabBoard from './views/lab'
 import Contact from './views/contact'
+import Us from './views/us'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route exact path="/business-simulation"><BusinessSimulation /></Route>
             <Route exact path="/lab-board"><LabBoard /></Route>
             <Route exact path="/contact"><Contact /></Route>
+            <Route exact path="/us"><Us /></Route>
           </Switch>
         <Footer />
       </Router>
