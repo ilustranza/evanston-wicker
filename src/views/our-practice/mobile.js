@@ -176,7 +176,7 @@ const MobileOurPractice = () => {
                     height: 235,
                   }}
                   active={true}
-                  image={hospitals}
+                  image={optical}
                   text={parse(t('ourpractice.healthcare.section2'))}
                   textStyle={{
                     fontFamily: 'GothamLight',
@@ -223,7 +223,7 @@ const MobileOurPractice = () => {
                     marginTop: 15
                   }}
                   active={true}
-                  image={optical}
+                  image={hospitals}
                   text={parse(t('ourpractice.healthcare.section3'))}
                   textStyle={{
                     fontFamily: 'GothamLight',

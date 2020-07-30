@@ -194,7 +194,7 @@ const OurPractice = () => {
                             width: 545,
                             height: 235
                           }}
-                          image={hospitals}
+                          image={optical}
                           text={parse(t('ourpractice.healthcare.section2'))}
                           textStyle={{
                             fontFamily: 'GothamLight',
@@ -211,7 +211,7 @@ const OurPractice = () => {
                             height: 235,
                             marginRight: 20
                           }}
-                          image={optical}
+                          image={hospitals}
                           text={parse(t('ourpractice.healthcare.section3'))}
                           textStyle={{
                             fontFamily: 'GothamLight',
