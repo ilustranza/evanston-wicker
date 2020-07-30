@@ -75,8 +75,8 @@ const Home = () => {
             <Carousel1Container>
               <Carousel1Heading>
                 <HorizontalDivider width={80} marginBottom={50} borderWidth={6} marginLeft={11}/>
-                <CarouselHeading><GothamLight color="white" lineHeight=".3">{t('home.carousel.slide1.line1')}</GothamLight></CarouselHeading><br />
-                <CarouselHeading><GothamBold color="white">{t('home.carousel.slide1.line2')}</GothamBold></CarouselHeading>
+                <CarouselHeading><GothamLight textTransform={'uppercase'} color="white" lineHeight=".3">{t('home.carousel.slide1.line1').toUpperCase()}</GothamLight></CarouselHeading><br />
+                <CarouselHeading><GothamBold textTransform={'uppercase'} color="white">{t('home.carousel.slide1.line2').toUpperCase()}</GothamBold></CarouselHeading>
                 <div style={{ height: 45, width: 1}} />
                 <SkewedButton color="white" bgColor="#540b80" href="/what-we-do"><GothamBold>{t('home.readmore')}</GothamBold></SkewedButton>
               </Carousel1Heading>
