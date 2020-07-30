@@ -8,7 +8,8 @@ import proBg from '../../static/images/diff/bg_process.png'
 
 export const EBSContainer = styled.div`
   width: 100%;
-  height: 660px;
+  // height: 660px;
+  padding: 45px 0;
   background-image: url(${ebsBg});
   background-size: cover;
   background-position: center;
@@ -44,7 +45,8 @@ export const LabContainer = styled.div`
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 620px;
+  // height: 620px;
+  padding: 45px 0;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -57,7 +59,8 @@ export const LabContainer = styled.div`
 
 export const EmphasisContainer = styled.div`
   width: 100%;
-  height: 618px;
+  // height: 680px;
+  padding: 45px 0;
   background-image: url(${emBg});
   background-size: cover;
   background-position: center;
@@ -111,9 +114,7 @@ export const ProcessContainer = styled.div`
 export const Blackbox = styled.div`
   width: ${props => props.largeBox ? 'calc(585px - 40px)' : 'calc(505px - 40px)'};
   background-color: rgba(0,0,0,.8);
-  padding-left: 32px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
