@@ -39,7 +39,7 @@ const OurPractice = () => {
               <Box width="100%" display="flex" justifyContent="center">
                 <Box maxWidth={1310} display="flex" alignItems="start" justifyContent="center" direction="column">
                   <BlackBox>
-                    <GothamLight size={44}>{t('ourpractice.lifesciences.heading')}</GothamLight>
+                    <GothamLight size={44}>{t('ourpractice.lifesciences.heading').toUpperCase()}</GothamLight>
                   </BlackBox>
 
 
@@ -156,7 +156,7 @@ const OurPractice = () => {
               <Box width="100%" display="flex" justifyContent="center">
                 <Box maxWidth={1310} display="flex" alignItems="start" justifyContent="center" direction="column">
                   <BlackBox>
-                    <GothamLight size={44}>{t('ourpractice.healthcare.heading')}</GothamLight>
+                    <GothamLight size={44}>{t('ourpractice.healthcare.heading').toUpperCase()}</GothamLight>
                   </BlackBox>
                   <Box display="flex" alignItems="center" justifyContent="center" marginTop={12}>
                     <HoverCard 

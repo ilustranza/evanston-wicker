@@ -115,7 +115,7 @@ export const BlackBox = styled.div`
   align-items: center;
   justify-content: flex-start;
   color: white;
-  text-transform: uppercase;
+  text-transform: uppercase !important;
 
   @media (max-width: 768px) {
     min-width: auto;
@@ -124,8 +124,7 @@ export const BlackBox = styled.div`
     height: auto;
 
     span {
-      font-size: 7vw !important;
-      text-transform: uppercase;
+      text-transform: uppercase !important;
     }
   }
 `

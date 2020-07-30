@@ -37,7 +37,7 @@ const MobileOurPractice = () => {
           <Box width="100%" display="flex" alignItems="center" justifyContent="center" direction="column">
 
             <BlackBox>
-              <GothamLight size={5}>{t('ourpractice.lifesciences.heading')}</GothamLight>
+              <GothamLight size={24}>{t('ourpractice.lifesciences.heading').toUpperCase()}</GothamLight>
             </BlackBox>
 
 
@@ -163,7 +163,7 @@ const MobileOurPractice = () => {
           <Box width="100%" display="flex" alignItems="center" justifyContent="center" direction="column">
 
             <BlackBox width="100%" >
-              <GothamLight>{t('ourpractice.healthcare.heading')}</GothamLight>
+              <GothamLight size={24}>{t('ourpractice.healthcare.heading').toUpperCase()}</GothamLight>
             </BlackBox>
 
 
