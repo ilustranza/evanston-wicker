@@ -138,9 +138,10 @@
     "section5": {
       "title": "EFFECTIVE PROCESS CLOSING",
       "line1": "For every stakeholder:",
-      "line2": "<ul><li>Client</li></ul>",
-      "line3": "<ul><li>Awarded Leader</li></ul>",
-      "line4": "<ul><li>Non selected Candidates &#40;we actually do it&#41;</li></ul>"
+      "line2": "• Client",
+      "line3": "• Awarded Leader",
+      "line4": "• Non selected Candidates",
+      "line5": "&nbsp;&nbsp; (we actually do it)"
     }
   },
   "us": {
@@ -192,7 +193,7 @@
     "viviana": "<p>Consultant, writer & speaker specialized in leadership, business & personal development.</p><p>20 years in Leadership positions at BD Mexico, BD Corporate, GSK and 3M.</p><p>International experience in USA, Mexico & Central America</p>",
     "gerard": "<p>Managing Partner Integration Consulting</p><p>Member of the Exec. Committee of the firm</p><p>Based in Paris, France</p><p>25 years in international leadership positions Unilever, L'Oréal, Revlon</p><p>Lived and worked in Mexico, France, Spain, Germany, USA</p><p>Former President of IESE alumni chapters from Mexico, France</p><p>Mentor at Endeavor</p>",
     "kurt": "<p>Managing Partner Evanston Wicker</p><p>30 years in Leadership positions at J&J, BD, Essilor Internationa, & Abbott Laboratories</p><p>Multi-Country experience within Latin America and also in the US</p><p>Former AMID Vice President</p>",
-    "gerardo": "<p>HR Director JLL Mexico</p><p>28 years at Corporate HR Executive positions at Merck, Grupo Mexico, Aeromexico and Citibank - Regional esperience based both in Brazil & Mexico</p><p>4 yeras as Independent Consultant for International Executive Search Firms</p>",
+    "gerardo": "<p>HR Director JLL Mexico</p><p>30 years at Corporate HR Executive positions at Merck, Grupo Mexico, Aeromexico and Citibank - Regional experience based both in Brazil & Mexico</p><p>4 yeras as Independent Consultant for International Executive Search Firms</p>",
     "mauricio": "<p>Senoir Human Resources Executive</p><p>30 years at Corporate HR Executive positions at Merck, Grupo Mexico, Aeromexico and Citibank - Regional experience based both in Brazil & Mexico</p><p>Awarded as Best HR Executive (2016) by Amedirh</p>"
   },
   "contact": {

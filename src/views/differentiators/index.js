@@ -1,6 +1,7 @@
 import React from 'react'
 import { GothamLight, GothamBold } from '../../components/Font/styled'
 import { useTranslation } from 'react-i18next';
+import parse from 'html-react-parser'
 import { 
   EBSContainer, 
   LabContainer, 
@@ -121,22 +122,23 @@ const KeyDifferentiators = () => {
           <Section image={proImage} boxFirst heading={t('differentiators.section5.title')} manyLines>
             <h4>
               <GothamLight size={language === 'es' ? 18 : 30}>
-                {t('differentiators.section5.line1')}
+                {parse(t('differentiators.section5.line1'), "ASD")}
               </GothamLight>
             </h4>
             <h3>
               <GothamLight size={language === 'es' ? 18 : 30}>
-                {t('differentiators.section5.line2')}
+                {parse(t('differentiators.section5.line2'), "ASD")}
               </GothamLight>
             </h3>
             <h5>
-              <GothamLight size={language === 'es' ? 40 : 26}>
-                {t('differentiators.section5.line3')}
+              <GothamLight size={language === 'es' ? 36 : 30}>
+                {parse(t('differentiators.section5.line3'), "ASD")}
               </GothamLight>
             </h5>
             <h5>
               <GothamLight size={language === 'es' ? 18 : 30}>
-                {t('differentiators.section5.line4')}
+                {parse(t('differentiators.section5.line4'), "ASD")}<br/>
+                {parse(t('differentiators.section5.line5'), "ASD")}
               </GothamLight>
             </h5>
           </Section>

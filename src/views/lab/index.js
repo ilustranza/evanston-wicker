@@ -92,7 +92,7 @@ const LabBoard = () => {
           <CarouselContainer>
             <ImageItem onClick={() => goToSlide(0)}>
               <img src={gerardoT} alt="Gerardo Gonzalez Yapor" />
-              <h2><GothamLight lineHeight={'1.5em'}>Gerardo</GothamLight><br/><strong>Gonzalez Yapor</strong></h2>
+              <h2><GothamLight lineHeight={'1.5em'}>Gerardo</GothamLight><br/><strong style={{ 'line-height': '1.5em'}} >Gonzalez Yapor</strong></h2>
             </ImageItem>
             <ImageItem onClick={() => goToSlide(1)}>
               <img src={kurtT} alt="Kurt Wicker" />

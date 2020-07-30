@@ -26,27 +26,6 @@ const MobileOurPractice = () => {
   return (
     <>
 
-    {/*<AllPurple>
-        <Flex alignItems="center">
-          <h2><GothamBold>{t('ourpractice.heading')}</GothamBold></h2>
-        </Flex>
-        <Box width="100%" display="flex" justifyContent="center">
-          <Box width="100%" display="flex" alignItems="center" justifyContent="center" direction="column">
-            <BlackBox>
-              <GothamLight size={44}>{t('ourpractice.lifesciences.heading')}</GothamLight>
-            </BlackBox>
-            <Box display="flex" alignItems="center" justifyContent="center" marginTop={12} direction="column">
-              <Box width="90vw" marginBottom={6}><GothamBold size={25}>{parse(t('ourpractice.lifesciences.section1').toUpperCase())}</GothamBold></Box>
-              <Box width="90vw" marginBottom={6}><GothamBold size={25}>{parse(t('ourpractice.lifesciences.section2').toUpperCase())}</GothamBold></Box>
-              <Box width="90vw" marginBottom={6}><GothamBold size={25}>{parse(t('ourpractice.lifesciences.section3').toUpperCase())}</GothamBold></Box>
-              <Box width="90vw" marginBottom={6}><GothamBold size={25}>{parse(t('ourpractice.lifesciences.section4').toUpperCase())}</GothamBold></Box>
-              <Box width="90vw" marginBottom={6}><GothamBold size={25}>{parse(t('ourpractice.lifesciences.section5').toUpperCase())}</GothamBold></Box>
-              <Box width="90vw" marginBottom={6}><GothamBold size={25}>{parse(t('ourpractice.lifesciences.section6').toUpperCase())}</GothamBold></Box>
-            </Box>
-          </Box>
-        </Box>
-      </AllPurple>*/}
-
 
       <AllPurple>
         <Flex alignItems="center">
@@ -95,7 +74,7 @@ const MobileOurPractice = () => {
                     textStyle={{
                       fontFamily: 'GothamLight',
                       color: 'white',
-                      fontSize: 21,
+                      fontSize: 12,
                     }}
                   />
                   <HoverCard 
@@ -109,7 +88,7 @@ const MobileOurPractice = () => {
                     textStyle={{
                       fontFamily: 'GothamLight',
                       color: 'white',
-                      fontSize: 24
+                      fontSize: 12
                     }}
                   />
                 </Box>
