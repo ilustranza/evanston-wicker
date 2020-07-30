@@ -176,7 +176,7 @@ const MobileOurPractice = () => {
                     height: 235,
                   }}
                   active={true}
-                  image={pharmaceuticals}
+                  image={hospitals}
                   text={parse(t('ourpractice.healthcare.section2'))}
                   textStyle={{
                     fontFamily: 'GothamLight',
@@ -193,7 +193,7 @@ const MobileOurPractice = () => {
                       marginRight: 15
                     }}
                     active={true}
-                    image={dist}
+                    image={clinics}
                     text={t('ourpractice.healthcare.section1')}
                     textStyle={{
                       fontFamily: 'GothamLight',
@@ -207,7 +207,7 @@ const MobileOurPractice = () => {
                       height: 235
                     }}
                     active={true}
-                    image={wholesalers}
+                    image={drugstores}
                     text={t('ourpractice.healthcare.section4')}
                     textStyle={{
                       fontFamily: 'GothamLight',
@@ -223,7 +223,7 @@ const MobileOurPractice = () => {
                     marginTop: 15
                   }}
                   active={true}
-                  image={diagnostics}
+                  image={optical}
                   text={parse(t('ourpractice.healthcare.section3'))}
                   textStyle={{
                     fontFamily: 'GothamLight',
@@ -240,7 +240,7 @@ const MobileOurPractice = () => {
                       marginRight: 15
                     }}
                     active={true}
-                    image={trade}
+                    image={consumer}
                     text={parse(t('ourpractice.healthcare.section5'))}
                     textStyle={{
                       fontFamily: 'GothamLight',
@@ -254,7 +254,7 @@ const MobileOurPractice = () => {
                       height: 488,
                     }}
                     active={true}
-                    image={medServices}
+                    image={ngo}
                     text={t('ourpractice.healthcare.section6')}
                     textStyle={{
                       fontFamily: 'GothamLight',
