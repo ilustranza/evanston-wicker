@@ -30,7 +30,7 @@ const MobileOurPractice = () => {
       <AllPurple>
         <Flex alignItems="center">
           <HorizontalDivider borderWidth={4} marginLeft={15} marginRight={20} />
-          <h2><GothamBold>{t('ourpractice.heading')}</GothamBold></h2>
+          <h2><GothamBold>{t('ourpractice.heading').toUpperCase()}</GothamBold></h2>
         </Flex>
 
         <Box width="100%" display="flex" justifyContent="center">

@@ -53,7 +53,7 @@ const BusinessSimulation = () => {
           <HorizontalDivider className="hDivider" flex borderWidth={4} marginRight={65} />
           <h2>
             <GothamBold>
-              {parse(t('business.heading'))}
+              {parse(t('business.heading').toUpperCase())}
             </GothamBold>
           </h2>
         </Box>

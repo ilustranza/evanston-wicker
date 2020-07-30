@@ -24,7 +24,7 @@ const Contact = () => {
       <Blackbox>
         <HorizontalDivider width={4} size={40} />
         <HorizontalDivider borderWidth={2} marginTop={16} marginBottom={25} size="45px" />
-        <h2><GothamLight textTransform={'uppercase'}>{t('contact.heading')}</GothamLight></h2>
+        <h2><GothamLight textTransform={'uppercase'}>{t('contact.heading').toUpperCase()}</GothamLight></h2>
         <ContactItem>
           <Icon>
             <svg 

@@ -27,7 +27,7 @@ const KeyDifferentiators = () => {
       <EBSContainer>
         <Box display="flex" alignItems="center" width="100%">
           <HorizontalDivider flex borderWidth={4} marginRight={65} />
-          <h2><GothamBold>{t('differentiators.heading')}</GothamBold></h2>
+          <h2><GothamBold>{t('differentiators.heading').toUpperCase()}</GothamBold></h2>
         </Box>
         <Box width="100%" display="flex" justifyContent="center">
           <Section image={ebsImage} boxFirst heading={t('differentiators.section1.title')}>

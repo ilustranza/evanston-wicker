@@ -34,7 +34,7 @@ const OurPractice = () => {
             <AllPurple>
               <Flex alignItems="center">
                 <HorizontalDivider borderWidth={4} marginRight={65} />
-                <h2><GothamBold>{t('ourpractice.heading')}</GothamBold></h2>
+                <h2><GothamBold>{t('ourpractice.heading').toUpperCase()}</GothamBold></h2>
               </Flex>
               <Box width="100%" display="flex" justifyContent="center">
                 <Box maxWidth={1310} display="flex" alignItems="start" justifyContent="center" direction="column">

@@ -10,7 +10,7 @@ const Hero = ({ title, image, slug, includes }) => {
     <AllPurple>
       <Flex alignItems="center">
         <HorizontalDivider borderWidth={4} marginRight={65} />
-        <h2><GothamBold>{title}</GothamBold></h2>
+        <h2><GothamBold>{title.toUpperCase()}</GothamBold></h2>
       </Flex>
       <MainContainer>
         <BlackBox>

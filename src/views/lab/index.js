@@ -81,10 +81,10 @@ const LabBoard = () => {
           </Media>
           <h2>
             <GothamBold>
-              {parse(t('lab.heading'))}
+              {parse(t('lab.heading').toUpperCase())}
             </GothamBold><br/>
             <GothamBold size={24}>
-              {parse(t('lab.subheading'))}
+              {parse(t('lab.subheading').toUpperCase())}
             </GothamBold>
           </h2>
         </Box>
