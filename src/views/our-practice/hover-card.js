@@ -1,8 +1,13 @@
 import React, { useState } from 'react'
 import {FadeBox} from './styled'
 
-const HoverCard = ({ size, image, text, textStyle }) => {
-  const [isHovered, setIsHovered] = useState(false)
+const HoverCard = ({ size, image, text, textStyle, active }) => {
+
+  var [isHovered, setIsHovered] = useState(false)
+
+  if (active) {
+    isHovered = true
+  }
 
   return (
     <div style={{...size, backgroundColor: '#d8aff1'}} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} >

@@ -41,6 +41,11 @@ const OurPractice = () => {
                   <BlackBox>
                     <GothamLight size={44}>{t('ourpractice.lifesciences.heading')}</GothamLight>
                   </BlackBox>
+
+
+
+
+                  
                   <Box display="flex" alignItems="center" justifyContent="center" marginTop={12}>
                     <HoverCard 
                       size={{
@@ -133,6 +138,10 @@ const OurPractice = () => {
                       }}
                     />
                   </Box>
+
+
+
+
                 </Box>
               </Box>
             </AllPurple>

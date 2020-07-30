@@ -70,6 +70,7 @@ export const AllPurple = styled.div`
   justify-content: center;
   color: white;
   flex-direction: column;
+  box-sizing: border-box !important;
   
   h2 {
     margin-right: 100px;
@@ -79,13 +80,18 @@ export const AllPurple = styled.div`
     letter-spacing: 10px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     height: auto;
     background-size: cover;
     background-position: bottom center;
     padding: 0 15px;
-    width: calc(100% - 30px);
-    padding-top: 20px; 
+    width: 100%;
+    padding-top: 20px;
+    margin: 0;
+
+    * {
+      box-sizing: border-box !important;
+    }
 
     h2 {
       text-align: center;
