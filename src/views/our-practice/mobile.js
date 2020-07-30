@@ -223,6 +223,7 @@ const MobileOurPractice = () => {
                     marginTop: 15
                   }}
                   active={true}
+                  position={'center right'}
                   image={hospitals}
                   text={parse(t('ourpractice.healthcare.section3'))}
                   textStyle={{

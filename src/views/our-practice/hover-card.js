@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {FadeBox} from './styled'
 
-const HoverCard = ({ size, image, text, textStyle, active }) => {
+const HoverCard = ({ size, image, text, textStyle, active, position }) => {
 
   var [isHovered, setIsHovered] = useState(false)
 
@@ -17,7 +17,7 @@ const HoverCard = ({ size, image, text, textStyle, active }) => {
         </FadeBox>
       }
       {isHovered && 
-        <FadeBox style={{ height: '100%', width: '100%', backgroundImage: `url(${image})`, backgroundSize: 'cover', display: "flex", justifyContent: 'flex-end', alignItems: 'flex-end'}}>
+        <FadeBox style={{ height: '100%', width: '100%', backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: position, display: "flex", justifyContent: 'flex-end', alignItems: 'flex-end'}}>
           <div style={{...textStyle, padding: 10, textTransform: 'uppercase', backgroundColor: '#8a49b2', opacity: .8, fontFamily: 'GothamBold', textAlign: 'right' }}>{text}</div>
         </FadeBox>
       }
