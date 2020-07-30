@@ -118,12 +118,14 @@ export const BlackBox = styled.div`
   text-transform: uppercase;
 
   @media (max-width: 768px) {
+    min-width: auto;
     padding: 15px;
-    width: calc(100% - 30px);
+    width: 100% !important;
     height: auto;
 
     span {
       font-size: 7vw !important;
+      text-transform: uppercase;
     }
   }
 `

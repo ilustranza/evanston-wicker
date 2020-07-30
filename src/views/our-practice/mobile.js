@@ -36,8 +36,8 @@ const MobileOurPractice = () => {
         <Box width="100%" display="flex" justifyContent="center">
           <Box width="100%" display="flex" alignItems="center" justifyContent="center" direction="column">
 
-            <BlackBox width="100%" >
-              <GothamLight>{t('ourpractice.lifesciences.heading')}</GothamLight>
+            <BlackBox>
+              <GothamLight size={5}>{t('ourpractice.lifesciences.heading')}</GothamLight>
             </BlackBox>
 
 
@@ -57,7 +57,7 @@ const MobileOurPractice = () => {
                   textStyle={{
                     fontFamily: 'GothamLight',
                     color: 'white',
-                    fontSize: 35,
+                    fontSize: 12,
                     fontWeight: 'bold'
                   }}
                 />
@@ -104,7 +104,7 @@ const MobileOurPractice = () => {
                   textStyle={{
                     fontFamily: 'GothamLight',
                     color: 'white',
-                    fontSize: 35,
+                    fontSize: 12,
                     fontWeight: 'bold'
                   }}
                 />
@@ -121,7 +121,7 @@ const MobileOurPractice = () => {
                     textStyle={{
                       fontFamily: 'GothamLight',
                       color: 'white',
-                      fontSize: 25
+                      fontSize: 12
                     }}
                   />
                   <HoverCard 
@@ -135,7 +135,7 @@ const MobileOurPractice = () => {
                     textStyle={{
                       fontFamily: 'GothamLight',
                       color: 'white',
-                      fontSize: 30,
+                      fontSize: 12,
                     }}
                   />
                 </Box>
@@ -181,7 +181,7 @@ const MobileOurPractice = () => {
                   textStyle={{
                     fontFamily: 'GothamLight',
                     color: 'white',
-                    fontSize: 35,
+                    fontSize: 12,
                     fontWeight: 'bold'
                   }}
                 />
@@ -198,7 +198,7 @@ const MobileOurPractice = () => {
                     textStyle={{
                       fontFamily: 'GothamLight',
                       color: 'white',
-                      fontSize: 21,
+                      fontSize: 12,
                     }}
                   />
                   <HoverCard 
@@ -212,7 +212,7 @@ const MobileOurPractice = () => {
                     textStyle={{
                       fontFamily: 'GothamLight',
                       color: 'white',
-                      fontSize: 24
+                      fontSize: 12
                     }}
                   />
                 </Box>
@@ -228,7 +228,7 @@ const MobileOurPractice = () => {
                   textStyle={{
                     fontFamily: 'GothamLight',
                     color: 'white',
-                    fontSize: 35,
+                    fontSize: 12,
                     fontWeight: 'bold'
                   }}
                 />
@@ -245,7 +245,7 @@ const MobileOurPractice = () => {
                     textStyle={{
                       fontFamily: 'GothamLight',
                       color: 'white',
-                      fontSize: 25
+                      fontSize: 12
                     }}
                   />
                   <HoverCard 
@@ -259,7 +259,7 @@ const MobileOurPractice = () => {
                     textStyle={{
                       fontFamily: 'GothamLight',
                       color: 'white',
-                      fontSize: 30,
+                      fontSize: 12,
                     }}
                   />
                 </Box>

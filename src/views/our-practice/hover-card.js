@@ -18,7 +18,7 @@ const HoverCard = ({ size, image, text, textStyle, active }) => {
       }
       {isHovered && 
         <FadeBox style={{ height: '100%', width: '100%', backgroundImage: `url(${image})`, backgroundSize: 'cover', display: "flex", justifyContent: 'flex-end', alignItems: 'flex-end'}}>
-          <div style={{ padding: 10, textTransform: 'uppercase', backgroundColor: '#8a49b2', opacity: .8, fontFamily: 'GothamBold', textAlign: 'right' }}>{text}</div>
+          <div style={{...textStyle, padding: 10, textTransform: 'uppercase', backgroundColor: '#8a49b2', opacity: .8, fontFamily: 'GothamBold', textAlign: 'right' }}>{text}</div>
         </FadeBox>
       }
     </div>
