@@ -92,8 +92,8 @@ const Home = () => {
             <Carousel2Container>
               <Carousel1Heading>
                 <HorizontalDivider width={80} marginBottom={50} borderWidth={6} marginLeft={11}/>
-                <CarouselHeading><GothamLight color="white" lineHeight=".3">{t('home.carousel.slide2.line1')}</GothamLight></CarouselHeading><br />
-                <CarouselHeading smallHeading><GothamBold color="white">{t('home.carousel.slide2.line2')}</GothamBold></CarouselHeading>
+                <CarouselHeading><GothamLight color="white" lineHeight=".3">{t('home.carousel.slide2.line1').toUpperCase()}</GothamLight></CarouselHeading><br />
+                <CarouselHeading smallHeading><GothamBold color="white">{t('home.carousel.slide2.line2').toUpperCase()}</GothamBold></CarouselHeading>
                 <div style={{ height: 45, width: 1}} />
                 <SkewedButton color="white" bgColor="#540b80" href="/business-simulation"><GothamBold>{t('home.readmore')}</GothamBold></SkewedButton>
               </Carousel1Heading>
@@ -103,7 +103,7 @@ const Home = () => {
             <Carousel3Container>
               <Carousel1Heading>
                 <HorizontalDivider width={80} marginBottom={50} borderWidth={6} marginLeft={11}/>
-                <CarouselHeading><GothamLight color="white" lineHeight=".3">{t('home.carousel.slide3.line1')}</GothamLight></CarouselHeading>
+                <CarouselHeading><GothamLight color="white" lineHeight=".3">{t('home.carousel.slide3.line1').toUpperCase()}</GothamLight></CarouselHeading>
                 <div style={{ height: 45, width: 1}} />
                 <SkewedButton color="white" bgColor="#540b80" href="/us"><GothamBold>{t('home.readmore')}</GothamBold></SkewedButton>
               </Carousel1Heading>
