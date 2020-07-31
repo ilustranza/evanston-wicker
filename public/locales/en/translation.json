@@ -3,6 +3,7 @@
     "menu" : {
       "headings": {
         "html": {
+          "us": "<div><strong>US</strong></div>",
           "whatwedo": "<div>WHAT<br/><strong>WE DO</strong></div>",
           "ourpractice": "<div>OUR<br/><strong>PRACTICE</strong></div>",
           "keydiff": "<div>KEY<br/><strong>DIFFERENTIATORS</strong></div>",
@@ -11,6 +12,7 @@
           "contact": "<div><strong>CONTACT</strong></div>"
         },
         "plain": {
+          "us": "US",
           "whatwedo": "WHAT WE DO",
           "ourpractice": "OUR PRACTICE",
           "keydiff": "KEY DIFFERENTIATORS",

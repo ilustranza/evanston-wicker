@@ -1,5 +1,9 @@
 export const plainLinks = [
   {
+    label: 'topnav.menu.headings.plain.us',
+    url: '/us'
+  },
+  {
     label: 'topnav.menu.headings.plain.whatwedo',
     url: '/what-we-do'
   },
@@ -26,6 +30,10 @@ export const plainLinks = [
 ]
 
 export const links = [
+  {
+    label: 'topnav.menu.headings.html.us',
+    url: '/us'
+  },
   {
     label: 'topnav.menu.headings.html.whatwedo',
     url: '/what-we-do'

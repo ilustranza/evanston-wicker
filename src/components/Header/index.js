@@ -22,14 +22,13 @@ const Header = () => {
   return (
     <HeaderContainer>
       <HeaderWrapper>
-        <a href="/us/"><ColorLogo /></a>
+        <a href="/"><ColorLogo /></a>
         <Right >
           <Media queries={{ small: { maxWidth: 900 } }}>
             {matches =>
               matches.small ? (
                 <Box marginEnd={5}>
                   <div style={{ display: isOpen ? 'none' : 'block'}}>
-                    
                     <Hamburger toggled={isOpen} toggle={setOpen} />
                   </div>
                   {isOpen &&
@@ -53,7 +52,7 @@ const Header = () => {
                       direction="column"
                     >
                       <Box 
-                        width="calc(100% - 40px)" 
+                        width="100%" 
                         display="flex" 
                         justifyContent="between" 
                         marginEnd={5} 
@@ -62,6 +61,7 @@ const Header = () => {
                         marginBottom={12} 
                         height={60}
                         alignItems="flex-start"
+                        boxSizing="border-box"
                       >
                         <WhiteLogo />
                         <Hamburger color="#ffffff" toggled toggle={setOpen} />
