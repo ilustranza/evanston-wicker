@@ -1,9 +1,17 @@
 import React from 'react'
 import { Blackbox, HorizontalDivider, FadeBox, SectionContainer } from './styled'
+import { useTranslation } from 'react-i18next';
 import { Box } from 'gestalt' 
 import { GothamLight } from '../../components/Font/styled'
 
-const Section = ({ image, heading, children, boxFirst, manyLines, largeBox, textAlign }) => {
+import simES from '../../static/images/sim/sim_es.jpeg'
+import simEN from '../../static/images/sim/sim_en.jpeg'
+
+const Section = ({ image, heading, children, boxFirst, manyLines, largeBox, textAlign, simAccess }) => {
+
+  const { t, i18n } = useTranslation()
+  const language = i18n.language
+
   return (
       <FadeBox 
         style={{
@@ -20,14 +28,28 @@ const Section = ({ image, heading, children, boxFirst, manyLines, largeBox, text
             <h2><GothamLight textAlign={textAlign}>{heading}</GothamLight></h2>
             {children}
           </Blackbox>
-          <img 
-            src={image} 
-            alt={heading}
-            style={{
-              marginLeft: boxFirst ? 40 : 0,
-              marginRight: boxFirst ? 0 : 40,
-            }}
-          />
+          <div>
+            <img 
+              src={image} 
+              alt={heading}
+              style={{
+                marginLeft: boxFirst ? 40 : 0,
+                marginRight: boxFirst ? 0 : 40,
+              }}
+            />
+            {simAccess ? (<a href="#">
+              <img 
+                src={language === 'es' ? simES : simEN} 
+                alt={heading}
+                style={{
+                  height: '50px',
+                  width: 'auto',
+                }}
+              />
+            </a>) : ("")}
+            
+          </div>
+
         </SectionContainer>
       </FadeBox>
   )

@@ -39,7 +39,7 @@ const BusinessSimulation = () => {
       content: "business.ourSIM.slug",
       image: simImage,
       thumbnail: simImageT,
-      simAccess: "business.ourSIM.simAccess"
+      simAccess: true
     }
   ]
 
@@ -49,14 +49,6 @@ const BusinessSimulation = () => {
   return (
     <>
       <MainContainer>
-        {/*<Box display="flex" alignItems="center" width="100%">
-          <HorizontalDivider className="hDivider" flex borderWidth={4} marginRight={65} />
-          <h2>
-            <GothamBold textAlign={'center'} width='100%'>
-              {parse(t('business.heading').toUpperCase())}
-            </GothamBold>
-          </h2>
-        </Box>*/}
 
         <Media queries={{ small: { maxWidth: 900 } }}>
           {matches => matches.small ? (
@@ -70,9 +62,11 @@ const BusinessSimulation = () => {
             </Box>
           )}
         </Media>
-        <Section textAlign={'center'} image={slides[activeSlide].image} boxFirst={activeSlide !== 1} heading={parse(t(slides[activeSlide].selector).toUpperCase())}>
+
+        <Section textAlign={'center'} image={slides[activeSlide].image} simAccess={slides[activeSlide].simAccess} boxFirst={activeSlide !== 1} heading={parse(t(slides[activeSlide].selector).toUpperCase())}>
           {parse(t(slides[activeSlide].content))}
         </Section>
+
       </MainContainer>
 
 

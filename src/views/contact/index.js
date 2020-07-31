@@ -139,7 +139,7 @@ const Contact = () => {
           </Icon>
           <p>
             <GothamLight size={13}><strong>{parse(t('contact.address'))}</strong><br />
-            Guillermo Gonzalez Camarena 600 <br/>
+            Guillermo Gonzalez Camarena 1600 <br/>
             4A-63 Santa Fe 01210 CDMX, Mexico
             </GothamLight>
           </p>
@@ -178,7 +178,7 @@ const Contact = () => {
           <p>
             <GothamLight size={13}>
               <strong>{t('contact.phone1')}</strong> 55 5081 8432 / 55 4390 8004<br />
-              <strong>{t('contact.phone2')}</strong> (954) 399 6089<br />
+              <strong>{t('contact.phone2')}</strong> (954) 399 6098<br />
             </GothamLight>
           </p>
         </ContactItem>
