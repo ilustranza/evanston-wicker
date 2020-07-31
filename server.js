@@ -43,10 +43,7 @@ app.post("/api/send_email/", function(req, res) {
 });
 
 app.get('/*', function (req, res) {
-
-  console.log(req.headers['x-forwarded-proto'])
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
-
 });
 
 var server = app.listen(port, function() {

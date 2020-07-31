@@ -29,8 +29,8 @@ const Footer = () => {
                     <>
                       <WhiteLogo width={150} height={50}/>
                       <Right>
-                        <div><img src={facebookIcon} alt="facebook" /></div>
-                        <div><img src={linkedinIcon} alt="linkedin" /></div>
+                        <div><a href="#"><img src={facebookIcon} alt="facebook" /></a></div>
+                        <div><a href="https://www.linkedin.com/company/evanston-wicker/"><img src={linkedinIcon} alt="linkedin" /></a></div>
                       </Right>
                     </>
                   ) : (
@@ -55,8 +55,8 @@ const Footer = () => {
             {matches =>
               !matches.small && (
                 <Right>
-                  <div><img src={facebookIcon} alt="facebook" /></div>
-                  <div><img src={linkedinIcon} alt="linkedin" /></div>
+                  <div><a href="#"><img src={facebookIcon} alt="facebook" /></a></div>
+                  <div><a href="https://www.linkedin.com/company/evanston-wicker/"><img src={linkedinIcon} alt="linkedin" /></a></div>
                 </Right>
               )}
           </Media>

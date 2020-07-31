@@ -82,8 +82,8 @@ const Home = () => {
               </Carousel1Heading>
               <CarouselSocialBar>
                 <VerticalDivider height={150} marginBottom={30} />
-                <div><img src={facebookIcon} alt="facebook" /></div>
-                <div><img src={linkedinIcon} alt="linkedin" /></div>
+                <div><a href="#"><img src={facebookIcon} alt="facebook" /></a></div>
+                <div><a href="https://www.linkedin.com/company/evanston-wicker/"><img src={linkedinIcon} alt="linkedin" /></a></div>
                 <VerticalDivider height={150} marginTop={20}/>
               </CarouselSocialBar>
             </Carousel1Container>
