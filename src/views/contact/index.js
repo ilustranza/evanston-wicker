@@ -34,13 +34,12 @@ const sendMail = () => {
  
   // { fullName, company, jobTitle, email, phone, country, city }
 
-  let subject = "Mensaje de " + fullName
-  let html = "<h2>DATOS PERSONALES</h2><h3>${fullName}</h3><p>País: ${country}</p><p>Ciudad: ${city}</p><br/><h2>DATOS LABORALES</h2><h3>${company}</h3><h4>Puesto: ${jobTitle}</h4><br/><h2>DATOS DE CONTACTO</h2><p>Correo Electrónico: ${email}</p><p>Teléfono: ${phone}</p>"
+  let html = "<h3>DATOS PERSONALES</h3><h4>Nombre: " + fullName + "</h4><p>País: " + country + "</p><p>Ciudad: " + city + "</p><br/><h3>DATOS LABORALES</h3><p>" + company + "</p><p>Puesto: " + jobTitle + "</p><br/><h3>DATOS DE CONTACTO</h3><p>Correo Electrónico: " + email + "</p><p>Teléfono: " + phone + "</p>"
 
   const body = {
     to: 'l.alonsosolano@gmail.com',
     from: 'no-reply@evanston-wicker.com',
-    subject,
+    subject: "Envío de formulario de Evanston Wicker",
     text: 'texto',
     html,
   }

@@ -17,8 +17,6 @@ app.post("/api/send_email/", function(req, res) {
 
   res.set("Content-Type", "application/json");
 
-  console.log(req.body)
-
 	// const msg = {
 	//   to: 'l.alonsosolano@gmail.com',
 	//   from: 'no-reply@evanston-wicker.com',
