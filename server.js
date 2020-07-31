@@ -60,18 +60,17 @@ app.post("/api/send_email/", function(req, res) {
 });
 
 app.get('/*', function (req, res) {
-  console.log(req.headers['x-forwarded-proto'])
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
-
-var server = app.listen(port, function() {
 
   console.log(">>>>>>>>>>>>>>>>")
   console.log(req.headers.host + req.url)
   console.log(req.headers['x-forwarded-proto'])
   console.log(req.secure)
 
+  console.log(req.headers['x-forwarded-proto'])
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
 
-  console.log('Server is up!');
-  console.log('Listening on port %d', server.address().port);
+});
+
+var server = app.listen(port, function() {
+  console.log('Server is up & listening on port %d', server.address().port);
 });
