@@ -35,7 +35,6 @@ app.use((req, res, next) => {
   } else
     return next();
 });
-You
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 

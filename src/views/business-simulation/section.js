@@ -37,7 +37,7 @@ const Section = ({ image, heading, children, boxFirst, manyLines, largeBox, text
                 marginRight: boxFirst ? 0 : 40,
               }}
             />
-            {simAccess ? (<a href="#">
+            {simAccess ? (<a href="https://ew.cesim.com/">
               <img 
                 src={language === 'es' ? simES : simEN} 
                 alt={heading}
