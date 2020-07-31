@@ -19,7 +19,7 @@ app.get("/api/send_email/", function(req, res) {
 
 	const msg = {
 	  to: 'l.alonsosolano@gmail.com',
-	  from: 'test@example.com',
+	  from: 'no-reply@evanston-wicker.com',
 	  subject: 'Sending with Twilio SendGrid is Fun',
 	  text: 'and easy to do anywhere, even with Node.js',
 	  html: '<strong>and easy to do anywhere, even with Node.js</strong>',
