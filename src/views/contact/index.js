@@ -12,6 +12,7 @@ import {
   PrivacyButton
 } from './styled'
 import { Box, Checkbox, TextField } from 'gestalt'
+import { sendEmail } from '../../services/ServerInterface';
 import parse from 'html-react-parser'
 
 import avisoES  from '../../static/files/AvisoPrivacidad.pdf'
@@ -19,7 +20,7 @@ import avisoEN  from '../../static/files/PrivacyNotice.pdf'
 
 const mail = require('@sendgrid/mail')
 
-const sendMail = (body) => {
+const sendMail = () => {
 
   let firstName = document.getElementById('firstName').value
   let lastName = document.getElementById('lastName').value
@@ -30,26 +31,29 @@ const sendMail = (body) => {
   let country = document.getElementById('country').value
   let city = document.getElementById('city').value
   let fullName = firstName + " " + lastName
+ 
+  // let body = { fullName, company, jobTitle, email, phone, country, city }
 
-  console.log(fullName)
-  console.log(company)
-  console.log(jobTitle)
-  console.log(email)
-  console.log(phone)
-  console.log(country)
-  console.log(city)
+  sendEmail().then ((response) => {
 
-  mail.setApiKey(process.env.SENDGRID_API_KEY)
+    if (response.ok) {
 
-  const message = {
-    to: 'l.alonsosolano@gmail.com',
-    from: 'no-reply@evanston-wicker.com',
-    subject: 'Sending with Twilio SendGrid is Fun',
-    text: 'and easy to do anywhere, even with Node.js',
-    html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-  }
+      console.log("OKTL :D")
+      console.log(response)
 
-  mail.send(message)
+    } else {
+
+      console.log("Something went wrong :c")
+      console.log(response)
+
+    }
+
+  }).catch((error) => {
+
+      console.log("Catch")
+      console.log(error)
+
+  })
 
 }
 
@@ -319,7 +323,7 @@ const Contact = () => {
               }
             />
           </div>
-          <SendButton onClick={() => sendMail('something')}>{t('contact.sendButton')}</SendButton>
+          <SendButton onClick={() => sendMail()}>{t('contact.sendButton')}</SendButton>
           <span>{t('contact.disclaimer')}</span>
         </div>
       </FormContainer>
