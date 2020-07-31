@@ -42,7 +42,7 @@ const sendMail = (accept, thanks, error) => {
   let checked = element_checked.checked
   let message = element_message
 
-  let fullName = firstName.value + " " + lastName.value
+  let fullName = firstName + " " + lastName
 
   if (!checked) {
     element_message.innerHTML = accept
@@ -53,7 +53,8 @@ const sendMail = (accept, thanks, error) => {
     let html = "<h3>DATOS PERSONALES</h3><h4>Nombre: " + fullName + "</h4><p>País: " + country + "</p><p>Ciudad: " + city + "</p><br/><h3>DATOS LABORALES</h3><p>Empresa: " + company + "</p><p>Puesto: " + jobTitle + "</p><br/><h3>DATOS DE CONTACTO</h3><p>Correo Electrónico: " + email + "</p><p>Teléfono: " + phone + "</p>"
 
     const body = {
-      to: 'l.alonsosolano@gmail.com',
+      // to: 'clientservices@evanston-wicker.com',
+      to: 'l.alonsosolano@gmail.com', // For development only
       from: 'no-reply@evanston-wicker.com',
       subject: "Envío de formulario de Evanston Wicker",
       text: 'texto',
