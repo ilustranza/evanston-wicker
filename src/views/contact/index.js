@@ -32,9 +32,20 @@ const sendMail = () => {
   let city = document.getElementById('city').value
   let fullName = firstName + " " + lastName
  
-  // let body = { fullName, company, jobTitle, email, phone, country, city }
+  // { fullName, company, jobTitle, email, phone, country, city }
 
-  sendEmail().then ((response) => {
+  let subject = "Mensaje de " + fullName
+  let html = "<h2>DATOS PERSONALES</h2><h3>${fullName}</h3><p>País: ${country}</p><p>Ciudad: ${city}</p><br/><h2>DATOS LABORALES</h2><h3>${company}</h3><h4>Puesto: ${jobTitle}</h4><br/><h2>DATOS DE CONTACTO</h2><p>Correo Electrónico: ${email}</p><p>Teléfono: ${phone}</p>"
+
+  const body = {
+    to: 'l.alonsosolano@gmail.com',
+    from: 'no-reply@evanston-wicker.com',
+    subject,
+    text: 'texto',
+    html,
+  }
+
+  sendEmail(body).then ((response) => {
 
     if (response.ok) {
 

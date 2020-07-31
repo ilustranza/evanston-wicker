@@ -41,7 +41,7 @@
       "line2": "práctica"
     },
     "readmore": "Leer más",
-    "banner": "“Venimos del propio Mercado con una clara visión del talento que las compañías necesitan para ser las mejores en ése mismo mercado.”",
+    "banner": "“Venimos del propio mercado con una clara visión del talento que las compañías necesitan para ser las mejores en ése mismo mercado.”",
     "next": "Siguiente",
     "prev": "Previo"
   },
@@ -124,7 +124,7 @@
       "line3": "(CONSEJO DE EVALUACIÓN DE LIDERAZGO)"
     },
     "section3": {
-      "title": "ENFASIS",
+      "title": "ÉNFASIS",
       "line1": "TANTO EN LA",
       "line2": "ADAPTACIÓN CULTURAL",
       "line3": "ESPERADA COMO EN LAS",
@@ -165,7 +165,7 @@
       "title": "VALORES",
       "line1": "• Tratamos a todos con <span>Respeto</span>: a nuestro Equipo, a los Candidatos, a nuestros Clientes y a todas y cada una de las personas con las que interactuamos",
       "line2": "• Promovemos la <span>Calidad Superior</span> en todo lo que hacemos: entendemos claramente que estamos tratando con los futuros Líderes de Organizaciones fuera de serie",
-      "line3": "• Entregamos <span>Resultados</span> thrmediante nuestras Herramientas Diferenciadas:",
+      "line3": "• Entregamos <span>Resultados</span> mediante nuestras Herramientas Diferenciadas:",
       "line3A": "I. EBS-Executive Business Simulation, exclusiva Simulación Ejecutiva de Negocios",
       "line3B": "II. El LAB-Leadership Assessment Board, nuestro Consejo de Evaluación de Liderazgo",
       "line4": "• <span>Nuestra Integridad</span> está basada en los más altos estándares de Comportamiento Ético",
@@ -203,8 +203,8 @@
     "phone2": "DESDE USA",
     "form": "O BIEN LLENE EL FORMATO ANEXO",
     "email": "TAMBIÉN PUEDE CONTACTARNOS VIA CORREO EN:",
-    "readOur": "Para llenar el siguiente formato, por favor lee nuestro aviso de privacidad aquí",
-    "privacyButton": "Aviso de Privacidad",
+    "readOur": "Para llenar el siguiente formato, por favor lee nuestro",
+    "privacyButton": "aviso de privacidad aquí",
     "fName": "Nombre",
     "lName": "Apellidos",
     "company": "Compañía",

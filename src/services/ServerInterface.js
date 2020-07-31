@@ -12,7 +12,7 @@ function formatResponse([response, body]) {
 
 }
 
-export function sendEmail() {
+export function sendEmail(body) {
 
 	return new Promise((resolve, reject) => {
 
@@ -20,7 +20,13 @@ export function sendEmail() {
 
 		fetch(path, {
 
-			method: 'GET',
+			method: 'POST',
+
+			headers: {
+				'Content-Type': 'application/json'
+			},
+
+			body: JSON.stringify(body),
 
 		})
 		.then((response) => { 
