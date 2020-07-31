@@ -9,11 +9,6 @@ const sgMail = require('@sendgrid/mail');
 
 app.use((req, res, next) => {
 
-  console.log("---------------")
-  console.log(req.headers.host)
-  console.log(req.headers['x-forwarded-proto'])
-  console.log(req.secure)
-
   if (process.env.NODE_ENV === 'production') {
 
     if (req.headers['x-forwarded-proto'] !== 'https')
@@ -32,16 +27,6 @@ app.use(express.static(path.join(__dirname, 'build')));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-// app.enable('trust proxy');
-
-// app.use (function (req, res, next) {
-//  console.log(req.headers['x-forwarded-proto'])
-//   if (req.secure) {
-//     next();
-//   } else {
-//     res.redirect('https://' + req.headers.host + req.url);
-//   }
-// });
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
@@ -58,11 +43,6 @@ app.post("/api/send_email/", function(req, res) {
 });
 
 app.get('/*', function (req, res) {
-
-  console.log(">>>>>>>>>>>>>>>>")
-  console.log(req.headers.host + req.url)
-  console.log(req.headers['x-forwarded-proto'])
-  console.log(req.secure)
 
   console.log(req.headers['x-forwarded-proto'])
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
