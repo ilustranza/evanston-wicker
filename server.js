@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 
     if (req.headers.host === 'evanston-wicker.herokuapp.com')
       return res.redirect(301, 'https://www.evanston-wicker.com');
-    if (req.headers['x-forwarded-proto'] !== 'https' || !req.secure)
+    if (req.headers['x-forwarded-proto'] !== 'https')
       return res.redirect('https://' + req.headers.host + req.url);
     else
       return next();
