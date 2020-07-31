@@ -14,10 +14,15 @@ import {
 import { Box, Checkbox, TextField } from 'gestalt'
 import parse from 'html-react-parser'
 
-const Contact = () => {
-  const { t } = useTranslation()
-  const [tcIsChecked, setChecked] = useState(false);
+import avisoES  from '../../static/files/AvisoPrivacidad.pdf'
+import avisoEN  from '../../static/files/PrivacyNotice.pdf'
 
+const Contact = () => {
+
+  const { t, i18n } = useTranslation()
+
+  const privacyURL = i18n.language === 'en' ? avisoEN : avisoES
+  const [tcIsChecked, setChecked] = useState(false);
     
   return (
     <MainContainer>
@@ -167,7 +172,7 @@ const Contact = () => {
       <FormContainer>
         <Box alignItems="center" justifyContent="center" display="flex" direction="column" >
           <span style={{ textAlign: "center" }}>{t('contact.readOur')}</span> <br />
-          <PrivacyButton>
+          <PrivacyButton href={privacyURL} key={privacyURL}>
             {t('contact.privacyButton')}
           </PrivacyButton>
         </Box>

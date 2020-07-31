@@ -12,13 +12,15 @@ export const SkewedContainer = styled.a`
   cursor: pointer;
   display: block;
   text-decoration: none;
+  margin-top: ${props => props.marginTop || 0}px;
 
   @media (max-width: 900px) {
     // width: 50%;
-    padding: 20px;
+    padding: 10px 20px;
     border: 2px solid white;
     text-align: center !important;
     margin: 0 auto;
+    margin-top: ${props => props.marginTop || 0}px;
   }
 
 `

@@ -236,6 +236,8 @@ export const Left = styled.div`
 export const CarouselWrapper = styled.div`
   width: 100%;
   height: 600px;
+  box-sizing: border-box;
+
 `
 
 export const CarouselHeading = styled.span`
@@ -440,7 +442,7 @@ export const LeftArrow = styled.div`
   cursor: pointer;
 
   @media (max-width: 900px) {
-    left: 15px;
+    left: 45px;
   }
 `
 
@@ -457,7 +459,7 @@ export const RightArrow = styled.div`
 
   @media (max-width: 900px) {
     left: auto;
-    right: 15px;
+    right: 45px;
   }
 `
 

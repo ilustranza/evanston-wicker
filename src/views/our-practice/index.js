@@ -74,7 +74,7 @@ const OurPractice = () => {
                           textStyle={{
                             fontFamily: 'GothamLight',
                             color: 'white',
-                            fontSize: 24,
+                            fontSize: 20,
                           }}
                         />
                         <HoverCard 

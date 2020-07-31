@@ -6,6 +6,7 @@ import { Box, TapArea } from 'gestalt'
 import Section from './section'
 import parse from 'html-react-parser'
 import Media from 'react-media'
+import SkewedButton from '../../components/SkewedButton'
 
 import howImage from '../../static/images/sim/img_works.png'
 import whyImage from '../../static/images/sim/img_ebs.png'
@@ -115,16 +116,22 @@ const BusinessSimulation = () => {
             <ActiveThumbnailViolator>
               <HorizontalDivider 
                 flex borderWidth={2}
-                marginTop={15}
-                marginBottom={i18n.language === 'es' && activeThumb === 2 ? 10 : 0}
+                marginTop={20}
+                marginBottom={20}
                 size="30px"
               />
               <h2 style={{ 
-                margin: activeThumb === 2 ? '0.75em 0' : '1em 0',
-                lineHeight: activeThumb === 2 ? '0.8em' : '1em'
+                margin: '0',
+                marginBottom: '20px',
+                lineHeight: '1em'
               }}>
                 <GothamLight>{parse(t(slides[activeThumb].selector).toUpperCase())}</GothamLight>
               </h2>
+
+              <SkewedButton width={'120px'} color="white" bgColor="#540b80" marginBottom={15}>
+                <GothamBold textAlign={'center'} textTransform={'initial'} letterSpacing={'1pt'} lineHeight={'1em'} margin={'0'} padding={'0'}>{t('home.readmore')}</GothamBold>
+              </SkewedButton>
+
             </ActiveThumbnailViolator>
           </ActiveThumbnail>
 

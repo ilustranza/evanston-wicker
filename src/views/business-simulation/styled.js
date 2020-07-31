@@ -194,11 +194,12 @@ export const ActiveThumbnail = styled.div`
 
 export const ActiveThumbnailViolator = styled.div`
   background-color: #5c0f8b;
-  min-width: 190px;
+  min-width: 280px;
   height: 200px;
   padding-left: 32px;
   cursor: pointer;
-  padding: 0 15px;
+  padding: 0 30px;
+  box-sizing: border-box;
 
   h2 {
     font-size: 36px;

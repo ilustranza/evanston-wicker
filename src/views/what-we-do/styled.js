@@ -212,7 +212,7 @@ export const ThumbnailBanner = styled.div`
   width: 197px;
   display: flex;
   position: absolute;
-  height: 105px;
+  // height: 105px;
   background-color: #5c0f8b;
   right: 0;
   font-size: 25px;
@@ -223,8 +223,9 @@ export const ThumbnailBanner = styled.div`
   padding-bottom: 10px;
 
   div {
-    position: relative;
-    top: 5px;
+    // position: relative;
+    // top: 5px;
+    // margin-top: 15px;
   }
 `
 

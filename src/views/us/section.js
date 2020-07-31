@@ -19,8 +19,8 @@ const Section = ({ image, heading, children, boxFirst, manyLines, largeBox }) =>
               }}
             >
               <Blackbox largeBox={largeBox}>
+                <HorizontalDivider borderWidth={4} size="50px" marginBottom={20} marginTop={20} />
                 <h2><GothamBold>{heading}</GothamBold></h2>
-                <HorizontalDivider borderWidth={4} size="50px" marginBottom={manyLines ? 10: 40} marginTop={manyLines ? 5 : 30} />
                 {children}
               </Blackbox>
               <img 
@@ -42,8 +42,8 @@ const Section = ({ image, heading, children, boxFirst, manyLines, largeBox }) =>
               }}
             >
               <Blackbox largeBox={largeBox}>
+                <HorizontalDivider borderWidth={4} size="50px" marginBottom={40} marginTop={20} />
                 <h2><GothamBold>{heading}</GothamBold></h2>
-                <HorizontalDivider borderWidth={4} size="50px" marginBottom={manyLines ? 10: 40} marginTop={manyLines ? 5 : 30} />
                 {children}
               </Blackbox>
               <img 

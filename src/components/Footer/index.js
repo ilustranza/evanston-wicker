@@ -16,7 +16,6 @@ import avisoEN  from '../../static/files/PrivacyNotice.pdf'
 const Footer = () => {
 
   const { t, i18n } = useTranslation()
-
   const privacyURL = i18n.language === 'en' ? avisoEN : avisoES
 
   return (

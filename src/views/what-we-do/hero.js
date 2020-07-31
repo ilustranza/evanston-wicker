@@ -30,7 +30,7 @@ const Hero = ({ title, image, slug, includes }) => {
             {includes.map((item, idx) => (
               <React.Fragment key={idx}>
                 <IncludeItem>
-                  <GothamBold>{item}</GothamBold>
+                  <GothamBold textTransform={'uppercase'}>{item}</GothamBold>
                 </IncludeItem>
                 {idx < includes.length -1 && <HorizontalDivider color="#8a49b2" borderWidth={4} size="34px" marginLeft={30} marginRight={30} />}
               </React.Fragment>

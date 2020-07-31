@@ -62,10 +62,28 @@ const WhatWeDo = () => {
     <>
       <Hero {...heroSlides[activeSlide]} />
       <BlackSelector>
-        <div onClick={() => setSlide(0)} ><Thumbnail image={execSeatchThumb} title={t('whatwedo.main.execSearch.title')} isActive={activeSlide === 0} /></div>
-        <div onClick={() => setSlide(1)} ><Thumbnail image={targetSearchThumb} title={t('whatwedo.main.targetedSearch.title')} isActive={activeSlide === 1} /></div>
-        <div onClick={() => setSlide(2)} ><Thumbnail image={leadershipThumb} title={t('whatwedo.main.leadership.title')} isActive={activeSlide === 2} /></div>
-        <div onClick={() => setSlide(3)} ><Thumbnail image={simulationsThumb} title={t('whatwedo.main.groupSimulation.title')} isActive={activeSlide === 3} /></div>
+        
+
+        <div onClick={() => setSlide(0)} >
+          <Thumbnail image={execSeatchThumb} title={t('whatwedo.main.execSearch.title')} isActive={activeSlide === 0} />
+        </div>
+        
+
+        <div onClick={() => setSlide(1)} >
+          <Thumbnail image={targetSearchThumb} title={t('whatwedo.main.targetedSearch.title')} isActive={activeSlide === 1} />
+        </div>
+        
+
+        <div onClick={() => setSlide(2)} >
+          <Thumbnail image={leadershipThumb} title={t('whatwedo.main.leadership.title')} isActive={activeSlide === 2} />
+        </div>
+        
+
+        <div onClick={() => setSlide(3)} >
+          <Thumbnail image={simulationsThumb} title={t('whatwedo.main.groupSimulation.title')} isActive={activeSlide === 3} />
+        </div>
+
+        
       </BlackSelector>
       <AllDarkGray>
         <div>
