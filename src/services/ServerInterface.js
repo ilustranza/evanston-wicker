@@ -16,7 +16,7 @@ export function sendEmail() {
 
 	return new Promise((resolve, reject) => {
 
-		let path = "http://localhost:3000/api/send_email/"
+		let path = "/api/send_email/"
 
 		fetch(path, {
 
