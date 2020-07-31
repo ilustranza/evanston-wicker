@@ -63,22 +63,29 @@ const sendMail = (accept, thanks, error) => {
 
     sendEmail(body).then ((response) => {
 
-      element_firstName.value = ""
-      element_lastName.value = ""
-      element_company.value = ""
-      element_jobTitle.value = ""
-      element_email.value = ""
-      element_phone.value = ""
-      element_country.value = ""
-      element_city.value = ""
-      element_checked.checked = false
+      if (response.ok) {
 
-      element_message.innerHTML = thanks
+        element_firstName.value = ""
+        element_lastName.value = ""
+        element_company.value = ""
+        element_jobTitle.value = ""
+        element_email.value = ""
+        element_phone.value = ""
+        element_country.value = ""
+        element_city.value = ""
+        element_checked.checked = false
 
+        element_message.innerHTML = thanks
+
+      } else {
+
+        element_message.innerHTML = error
+
+      }
 
     }).catch((e) => {
 
-        element_message.innerHTML = error
+        // element_message.innerHTML = error
 
     })
 
