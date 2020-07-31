@@ -9,7 +9,7 @@ export const FooterContainer = styled.div`
 
   @media (max-width: 768px) {
     height: auto;
-    padding: 45px;
+    padding: 30px;
   }
 `
 export const SecondaryFooter = styled.div`
@@ -93,7 +93,7 @@ export const Right = styled.div`
 
 export const FooterNav = styled.nav`
   padding-left: 115px;
-  margin-top: 50px;
+  margin: 50px 0;
   
   a {
     color: white;
@@ -109,19 +109,20 @@ export const FooterNav = styled.nav`
   }
 
   @media (max-width: 768px) {
-    padding: 0 10px;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 120px;
+    height: 200px;
+    box-sizing: border-box;
 
     a {
-      font-size: 12px;
+      font-size: 11px;
       width: 50%;
       padding-right: 0;
       height: 30px;
-      margin-bottom: 0;
-      padding-bottom: 10px;
+      margin: 0;
+      padding-bottom: 15px;
     }
   }
 `

@@ -62,6 +62,8 @@ const sendMail = (accept, thanks, error) => {
 
     sendEmail(body).then ((response) => {
 
+      console.log(response)
+
       if (response.ok) {
 
         element_firstName.value = ""
@@ -85,6 +87,8 @@ const sendMail = (accept, thanks, error) => {
     }).catch((e) => {
 
         element_message.innerHTML = error
+
+        console.log(e)
 
     })
 
