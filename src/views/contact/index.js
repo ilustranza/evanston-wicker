@@ -17,6 +17,48 @@ import parse from 'html-react-parser'
 import avisoES  from '../../static/files/AvisoPrivacidad.pdf'
 import avisoEN  from '../../static/files/PrivacyNotice.pdf'
 
+const mail = require('@sendgrid/mail')
+
+const sendMail = (body) => {
+
+  let firstName = document.getElementById('firstName').value
+  let lastName = document.getElementById('lastName').value
+  let company = document.getElementById('company').value
+  let jobTitle = document.getElementById('jobTitle').value
+  let email = document.getElementById('email').value
+  let phone = document.getElementById('phone').value
+  let country = document.getElementById('country').value
+  let city = document.getElementById('city').value
+  let fullName = firstName + " " + lastName
+
+  console.log(fullName)
+  console.log(company)
+  console.log(jobTitle)
+  console.log(email)
+  console.log(phone)
+  console.log(country)
+  console.log(city)
+
+  mail.setApiKey(process.env.SENDGRID_API_KEY)
+
+  const message = {
+    to: 'l.alonsosolano@gmail.com',
+    from: 'no-reply@evanston-wicker.com',
+    subject: 'Sending with Twilio SendGrid is Fun',
+    text: 'and easy to do anywhere, even with Node.js',
+    html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+  }
+
+  mail.send(message)
+
+}
+
+
+
+
+
+
+
 const Contact = () => {
 
   const { t, i18n } = useTranslation()
@@ -169,6 +211,27 @@ const Contact = () => {
           </p>
         </ContactItem>
       </Blackbox>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <FormContainer>
         <Box alignItems="center" justifyContent="center" display="flex" direction="column" >
           <span style={{ textAlign: "center" }}>{t('contact.readOur')}</span> <br />
@@ -256,7 +319,7 @@ const Contact = () => {
               }
             />
           </div>
-          <SendButton>{t('contact.sendButton')}</SendButton>
+          <SendButton onClick={() => sendMail('something')}>{t('contact.sendButton')}</SendButton>
           <span>{t('contact.disclaimer')}</span>
         </div>
       </FormContainer>
