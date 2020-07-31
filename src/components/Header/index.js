@@ -68,7 +68,7 @@ const Header = () => {
                         height={60}
                         boxSizing="border-box"
                       >
-                        <WhiteLogo />
+                        <a href="/"><WhiteLogo /></a>
                         <Hamburger color="#ffffff" toggled toggle={setOpen} />
                       </Box>
                       <MobileTopNav />
