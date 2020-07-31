@@ -18,50 +18,77 @@ import parse from 'html-react-parser'
 import avisoES  from '../../static/files/AvisoPrivacidad.pdf'
 import avisoEN  from '../../static/files/PrivacyNotice.pdf'
 
-const sendMail = () => {
+const sendMail = (accept, thanks, error) => {
 
-  let firstName = document.getElementById('firstName').value
-  let lastName = document.getElementById('lastName').value
-  let company = document.getElementById('company').value
-  let jobTitle = document.getElementById('jobTitle').value
-  let email = document.getElementById('email').value
-  let phone = document.getElementById('phone').value
-  let country = document.getElementById('country').value
-  let city = document.getElementById('city').value
-  let fullName = firstName + " " + lastName
+  let element_firstName = document.getElementById('firstName')
+  let element_lastName = document.getElementById('lastName')
+  let element_company = document.getElementById('company')
+  let element_jobTitle = document.getElementById('jobTitle')
+  let element_email = document.getElementById('email')
+  let element_phone = document.getElementById('phone')
+  let element_country = document.getElementById('country')
+  let element_city = document.getElementById('city')
+  let element_checked = document.getElementById('termsAndConditions')
+  let element_message = document.getElementById('serverMessage')
+
+  let firstName = element_firstName.value
+  let lastName = element_lastName.value
+  let company = element_company.value
+  let jobTitle = element_jobTitle.value
+  let email = element_email.value
+  let phone = element_phone.value
+  let country = element_country.value
+  let city = element_city.value
+  let checked = element_checked.checked
+  let message = element_message
+
+  let fullName = firstName.value + " " + lastName.value
+
+  if (!checked) {
+    element_message.innerHTML = accept
+  } else {
  
-  // { fullName, company, jobTitle, email, phone, country, city }
+    // { fullName, company, jobTitle, email, phone, country, city }
 
-  let html = "<h3>DATOS PERSONALES</h3><h4>Nombre: " + fullName + "</h4><p>País: " + country + "</p><p>Ciudad: " + city + "</p><br/><h3>DATOS LABORALES</h3><p>Empresa: " + company + "</p><p>Puesto: " + jobTitle + "</p><br/><h3>DATOS DE CONTACTO</h3><p>Correo Electrónico: " + email + "</p><p>Teléfono: " + phone + "</p>"
+    let html = "<h3>DATOS PERSONALES</h3><h4>Nombre: " + fullName + "</h4><p>País: " + country + "</p><p>Ciudad: " + city + "</p><br/><h3>DATOS LABORALES</h3><p>Empresa: " + company + "</p><p>Puesto: " + jobTitle + "</p><br/><h3>DATOS DE CONTACTO</h3><p>Correo Electrónico: " + email + "</p><p>Teléfono: " + phone + "</p>"
 
-  const body = {
-    to: 'l.alonsosolano@gmail.com',
-    from: 'no-reply@evanston-wicker.com',
-    subject: "Envío de formulario de Evanston Wicker",
-    text: 'texto',
-    html,
-  }
-
-  sendEmail(body).then ((response) => {
-
-    if (response.ok) {
-
-      console.log("OKTL :D")
-      console.log(response)
-
-    } else {
-
-      console.log("Something went wrong :c")
-      console.log(response)
-
+    const body = {
+      to: 'l.alonsosolano@gmail.com',
+      from: 'no-reply@evanston-wicker.com',
+      subject: "Envío de formulario de Evanston Wicker",
+      text: 'texto',
+      html,
     }
 
-  }).catch((error) => {
+    sendEmail(body).then ((response) => {
 
-      console.log("Catch")
-      console.log(error)
+      if (response.ok) {
 
-  })
+        element_firstName.value = ""
+        element_lastName.value = ""
+        element_company.value = ""
+        element_jobTitle.value = ""
+        element_email.value = ""
+        element_phone.value = ""
+        element_country.value = ""
+        element_city.value = ""
+        element_checked.checked = false
+
+        element_message.innerHTML = thanks
+
+      } else {
+
+        element_message.innerHTML = error
+
+      }
+
+    }).catch((e) => {
+
+        element_message.innerHTML = error
+
+    })
+
+  }
 
 }
 
@@ -331,7 +358,8 @@ const Contact = () => {
               }
             />
           </div>
-          <SendButton onClick={() => sendMail()}>{t('contact.sendButton')}</SendButton>
+          <span id="serverMessage" style={{ fontSize: '16pt', textAlign: 'center', margin: '1em' }}></span>
+          <SendButton onClick={() => sendMail(t('contact.accept'), t('contact.thanks'), t('contact.error'))}>{t('contact.sendButton')}</SendButton>
           <span>{t('contact.disclaimer')}</span>
         </div>
       </FormContainer>

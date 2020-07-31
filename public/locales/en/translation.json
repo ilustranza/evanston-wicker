@@ -215,7 +215,10 @@
     "city": "City",
     "haveRead": "I have read and accept the Terms and Conditions as well as the Privacy Notice",
     "sendButton": "SEND",
-    "disclaimer": "*The personal data you provide will be protected in accordance with the provisions of the General Law of Transparency and Access to Public Information."
+    "disclaimer": "*The personal data you provide will be protected in accordance with the provisions of the General Law of Transparency and Access to Public Information.",
+    "accept": "You need to accept the Terms and Conditions, as well as the Privacy Notice",
+    "thanks": "Thank you, we will contact you shortly",
+    "error": "Something went wrong. Please, try again"
   },
   "footer": {
     "copyright": "© 2020 EVANSTON WICKER IBEROAMERICA - ALL RIGHTS RESERVED",

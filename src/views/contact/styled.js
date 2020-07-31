@@ -197,7 +197,7 @@ export const PrivacyButton = styled.a`
   display: block;
   margin-bottom: 30px;
   margin-top: 15px;
-  width: 160px;
+  // width: 180px;
   text-decoration: underline;
   cursor: pointer;
 `

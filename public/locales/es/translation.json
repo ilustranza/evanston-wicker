@@ -204,7 +204,7 @@
     "form": "O BIEN LLENE EL FORMATO ANEXO",
     "email": "TAMBIÉN PUEDE CONTACTARNOS VIA CORREO EN:",
     "readOur": "Para llenar el siguiente formato, por favor lee nuestro",
-    "privacyButton": "aviso de privacidad aquí",
+    "privacyButton": "Aviso de Privacidad, aquí",
     "fName": "Nombre",
     "lName": "Apellidos",
     "company": "Compañía",
@@ -215,7 +215,10 @@
     "city": "Ciudad",
     "haveRead": "He leído y acepto los Términos y Condiciones, así como el Aviso de Privacidad",
     "sendButton": "ENVIAR",
-    "disclaimer": "*Sus datos personales están protegidos por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, su Reglamento y demás disposiciones aplicables y están sujetos a los términos y condiciones de nuestro Aviso de Privacidad."
+    "disclaimer": "*Sus datos personales están protegidos por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, su Reglamento y demás disposiciones aplicables y están sujetos a los términos y condiciones de nuestro Aviso de Privacidad.",
+    "accept": "Necesitas aceptar los Términos y Condiciones, así como el Aviso de Privacidad",
+    "thanks": "Gracias, en breve nos comunicaremos contigo",
+    "error": "Algo salió mal. Por favor, inténtelo de nuevo"
   },
   "footer": {
     "copyright": "© 2020 EVANSTON WICKER IBEROAMERICA - TODOS LOS DERECHOS RESERVADOS",
