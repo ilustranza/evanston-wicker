@@ -141,7 +141,7 @@ const LabBoard = () => {
               <RightArrow>
                 <TapArea
                   onTap={() => {
-                    activeSlide - 1 < 0 ? setActiveSlide(slides.length - 1) : setActiveSlide(activeSlide - 1)
+                    activeSlide + 1 < slides.length ? setActiveSlide(activeSlide + 1) : setActiveSlide(0)
                   }}
                 >
                   <svg 
