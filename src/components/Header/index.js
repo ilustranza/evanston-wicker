@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <HeaderWrapper>
-        <a href="/"><ColorLogo /></a>
+        <a href="/us/"><ColorLogo /></a>
         <Right >
           <Media queries={{ small: { maxWidth: 900 } }}>
             {matches =>

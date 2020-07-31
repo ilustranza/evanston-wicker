@@ -244,8 +244,9 @@ const Contact = () => {
             </svg>
           </Icon>
           <p>
-            <GothamLight size={13}><strong>{parse(t('contact.email'))}</strong><br />
-            clientservices@evanston-wicker.com
+            <GothamLight size={13}><strong>{parse(t('contact.email'))}</strong><br /></GothamLight>
+            <GothamLight size={13}>
+              <a href="mailto:clientservices@evanston-wicker.com" style={{ textDecoration: 'none', color: 'white' }}>clientservices@evanston-wicker.com</a>
             </GothamLight>
           </p>
         </ContactItem>
