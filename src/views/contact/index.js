@@ -246,7 +246,7 @@ const Contact = () => {
           <p>
             <GothamLight size={13}><strong>{parse(t('contact.email'))}</strong><br /></GothamLight>
             <GothamLight size={13}>
-              <a href="mailto:clientservices@evanston-wicker.com" style={{ textDecoration: 'none', color: 'white' }}>clientservices@evanston-wicker.com</a>
+              <a href="mailto:clientservices@evanston-wicker.com" target="_blank" style={{ textDecoration: 'none', color: 'white' }}>clientservices@evanston-wicker.com</a>
             </GothamLight>
           </p>
         </ContactItem>
