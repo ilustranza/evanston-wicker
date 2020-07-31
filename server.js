@@ -11,6 +11,18 @@ app.use(favicon(__dirname + '/build/favicon.ico'));
 app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, 'build')));
 app.use(bodyParser.json());
+app.enable('trust proxy');
+
+app.use (function (req, res, next) {
+  if (req.secure) {
+    // request was via https, so do no special handling
+    next();
+  } else {
+    // request was via http, so redirect to https
+    res.redirect('https://' + req.headers.host + req.url);
+  }
+});
+
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 app.post("/api/send_email/", function(req, res) {
@@ -37,6 +49,11 @@ app.get('/*', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-app.listen(port, () => {
-   console.log('Server is up!');
+var server = app.listen(port, function() {
+  console.log('Listening on port %d', server.address().port);
 });
+
+
+// app.listen(port, () => {
+//    console.log('Server is up!');
+// });
