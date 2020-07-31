@@ -31,6 +31,12 @@ export const SecondaryFooterWrapper = styled.div`
   font-size: 12px;
   justify-content: space-between;
 
+  * {
+    text-decoration: none;
+    color: white;
+
+  }
+
   @media (max-width: 768px) {
     font-size: 9px;
     width: 100%;

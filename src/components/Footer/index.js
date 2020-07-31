@@ -10,9 +10,14 @@ import linkedinIcon  from '../../static/images/linkedin.png'
 import { Box } from 'gestalt'
 import { WhiteLogo } from '../Icons'
 
+import avisoES  from '../../static/files/AvisoPrivacidad.pdf'
+import avisoEN  from '../../static/files/PrivacyNotice.pdf'
+
 const Footer = () => {
 
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+
+  const privacyURL = i18n.language === 'en' ? avisoEN : avisoES
 
   return (
     <>
@@ -62,7 +67,7 @@ const Footer = () => {
       <SecondaryFooter>
         <SecondaryFooterWrapper>
           <GothamBold className='footer_paragraph1'>{t('footer.copyright')}</GothamBold>
-          <GothamBold className='footer_paragraph2' textTransform={'uppercase'}>{t('footer.tandc')} | {t('footer.privacyPolicy')} | {t('footer.privacyNotice')}</GothamBold>
+          <a href={privacyURL} key={privacyURL}><GothamBold className='footer_paragraph2' textTransform={'uppercase'}>{t('footer.tandc')} | {t('footer.privacyPolicy')} | {t('footer.privacyNotice')}</GothamBold></a>
         </SecondaryFooterWrapper>
       </SecondaryFooter>
     </>
