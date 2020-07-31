@@ -7,41 +7,12 @@ const port = process.env.PORT || 3000;
 
 const sgMail = require('@sendgrid/mail');
 
-// app.use((req, res, next) => {
-
-//   console.log("---------------")
-//   console.log(req.headers.host)
-//   console.log(req.headers['x-forwarded-proto'])
-//   console.log(req.secure)
-
-//   if (process.env.NODE_ENV === 'production') {
-
-//     if (req.headers['x-forwarded-proto'] !== 'https')
-//       return res.redirect('https://' + req.headers.host + req.url);
-//     else
-//       return next();
-    
-//   } else
-//     return next();
-
-// });
-
 app.use(favicon(__dirname + '/build/favicon.ico'));
 app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, 'build')));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-// app.enable('trust proxy');
-
-// app.use (function (req, res, next) {
-//  console.log(req.headers['x-forwarded-proto'])
-//   if (req.secure) {
-//     next();
-//   } else {
-//     res.redirect('https://' + req.headers.host + req.url);
-//   }
-// });
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
