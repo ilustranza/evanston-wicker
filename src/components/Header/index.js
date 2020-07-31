@@ -52,15 +52,20 @@ const Header = () => {
                       direction="column"
                     >
                       <Box 
-                        width="100%" 
+                        dangerouslySetInlineStyle={{ 
+                          __style: 
+                            { 
+                              backgroundColor: '#190a2b'
+                            }
+                        }}
+                        width="90%" 
                         display="flex" 
+                        flexFlow="row nowrap"
                         justifyContent="between" 
-                        marginEnd={5} 
-                        marginTop={8}
-                        marginStart={5} 
-                        marginBottom={12} 
+                        alignItems="center"
+                        marginTop={5}
+                        marginBottom={10} 
                         height={60}
-                        alignItems="flex-start"
                         boxSizing="border-box"
                       >
                         <WhiteLogo />
