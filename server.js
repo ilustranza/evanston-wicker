@@ -7,26 +7,24 @@ const port = process.env.PORT || 3000;
 
 const sgMail = require('@sendgrid/mail');
 
-app.use((req, res, next) => {
+// app.use((req, res, next) => {
 
-  console.log("---------------")
-  console.log(req.headers.host)
-  console.log(req.headers['x-forwarded-proto'])
-  console.log(req.secure)
+//   console.log("---------------")
+//   console.log(req.headers.host)
+//   console.log(req.headers['x-forwarded-proto'])
+//   console.log(req.secure)
 
-  if (process.env.NODE_ENV === 'production') {
+//   if (process.env.NODE_ENV === 'production') {
 
-    if (req.headers.host === 'evanston-wicker.herokuapp.com')
-      return res.redirect(301, 'https://www.evanston-wicker.com');
-    if (req.headers['x-forwarded-proto'] !== 'https')
-      return res.redirect('https://' + req.headers.host + req.url);
-    else
-      return next();
+//     if (req.headers['x-forwarded-proto'] !== 'https')
+//       return res.redirect('https://' + req.headers.host + req.url);
+//     else
+//       return next();
     
-  } else
-    return next();
+//   } else
+//     return next();
 
-});
+// });
 
 app.use(favicon(__dirname + '/build/favicon.ico'));
 app.use(express.static(__dirname));
