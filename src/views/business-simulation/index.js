@@ -5,6 +5,7 @@ import { MainContainer, HorizontalDivider, AllDarkGray, ActiveThumbnail, ActiveT
 import { Box, TapArea } from 'gestalt'
 import Section from './section'
 import parse from 'html-react-parser'
+import Media from 'react-media'
 
 import howImage from '../../static/images/sim/img_works.png'
 import whyImage from '../../static/images/sim/img_ebs.png'
@@ -49,27 +50,48 @@ const BusinessSimulation = () => {
   return (
     <>
       <MainContainer>
-        <Box display="flex" alignItems="center" width="100%">
+        {/*<Box display="flex" alignItems="center" width="100%">
           <HorizontalDivider className="hDivider" flex borderWidth={4} marginRight={65} />
           <h2>
-            <GothamBold>
+            <GothamBold textAlign={'center'} width='100%'>
               {parse(t('business.heading').toUpperCase())}
             </GothamBold>
           </h2>
-        </Box>
-        <Section image={slides[activeSlide].image} boxFirst={activeSlide !== 1} heading={parse(t(slides[activeSlide].selector))}>
+        </Box>*/}
+
+        <Media queries={{ small: { maxWidth: 900 } }}>
+          {matches => matches.small ? (
+            <Box width='100%' display="flex" alignItems="center" width="100%">
+              <h2 style={{ width: '100%', textAlign: 'center' }}><GothamBold textAlign={'center'}>{parse(t('business.heading').toUpperCase())}</GothamBold></h2>
+            </Box>
+          ) : (
+            <Box display="flex" alignItems="center" width="100%">
+              <HorizontalDivider flex borderWidth={4} marginRight={65} />
+              <h2><GothamBold>{parse(t('business.heading').toUpperCase())}</GothamBold></h2>
+            </Box>
+          )}
+        </Media>
+        <Section textAlign={'center'} image={slides[activeSlide].image} boxFirst={activeSlide !== 1} heading={parse(t(slides[activeSlide].selector).toUpperCase())}>
           {parse(t(slides[activeSlide].content))}
         </Section>
       </MainContainer>
+
+
       <AllDarkGray>
+      
         <RightThumbnail>
           <img src={slides[rightThumbnailIdx].thumbnail} style={{ height: 215 }} alt={slides[rightThumbnailIdx].selector} />
           <ActiveThumbnailViolator>
             <HorizontalDivider flex borderWidth={2} marginTop={15} size="30px" />
-            <h2><GothamLight>{parse(t(slides[rightThumbnailIdx].selector))}</GothamLight></h2>
+            <h2><GothamLight>{parse(t(slides[rightThumbnailIdx].selector).toUpperCase())}</GothamLight></h2>
           </ActiveThumbnailViolator>
         </RightThumbnail>
+
+
+
+
         <MainThumbnail>
+
           <Box marginEnd={5}>
             <TapArea onTap={() => {
               if(activeThumb - 1 < 0){
@@ -86,6 +108,8 @@ const BusinessSimulation = () => {
               </svg>
             </TapArea>
           </Box>
+
+
           <ActiveThumbnail onClick={() => setActiveSlide(activeThumb)}>
             <img src={slides[activeThumb].thumbnail} style={{ width: 516 }} alt={slides[activeThumb].selector} />
             <ActiveThumbnailViolator>
@@ -99,10 +123,12 @@ const BusinessSimulation = () => {
                 margin: activeThumb === 2 ? '0.75em 0' : '1em 0',
                 lineHeight: activeThumb === 2 ? '0.8em' : '1em'
               }}>
-                <GothamLight>{parse(t(slides[activeThumb].selector))}</GothamLight>
+                <GothamLight>{parse(t(slides[activeThumb].selector).toUpperCase())}</GothamLight>
               </h2>
             </ActiveThumbnailViolator>
           </ActiveThumbnail>
+
+
           <Box marginStart={5}>
             <TapArea onTap={() => {
               if(activeThumb + 1 > slides.length - 1){
@@ -119,12 +145,18 @@ const BusinessSimulation = () => {
               </svg>
             </TapArea>
           </Box>
+
         </MainThumbnail>
+
+
+
+
+
         <LeftThumbnail>
           <img src={slides[leftThumbnailIdx].thumbnail} style={{ height: 215 }} alt={slides[leftThumbnailIdx].selector} />
           <ActiveThumbnailViolator>
             <HorizontalDivider flex borderWidth={2} marginTop={15} size="30px" />
-            <h2><GothamLight>{parse(t(slides[leftThumbnailIdx].selector))}</GothamLight></h2>
+            <h2><GothamLight>{parse(t(slides[leftThumbnailIdx].selector).toUpperCase())}</GothamLight></h2>
           </ActiveThumbnailViolator>
         </LeftThumbnail>
       </AllDarkGray>

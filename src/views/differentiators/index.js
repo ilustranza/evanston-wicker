@@ -2,6 +2,7 @@ import React from 'react'
 import { GothamLight, GothamBold } from '../../components/Font/styled'
 import { useTranslation } from 'react-i18next';
 import parse from 'html-react-parser'
+import Media from 'react-media'
 import { 
   EBSContainer, 
   LabContainer, 
@@ -22,13 +23,26 @@ import proImage from '../../static/images/diff/img_process.png'
 const KeyDifferentiators = () => {
   const { t, i18n } = useTranslation()
   const language = i18n.language
+
+  var horizontalDivider = ""
+
+
+
   return (
     <>
       <EBSContainer>
-        <Box display="flex" alignItems="center" width="100%">
-          <HorizontalDivider flex borderWidth={4} marginRight={65} />
-          <h2><GothamBold>{t('differentiators.heading').toUpperCase()}</GothamBold></h2>
-        </Box>
+          <Media queries={{ small: { maxWidth: 900 } }}>
+            {matches => matches.small ? (
+              <Box width='100%' display="flex" alignItems="center" width="100%">
+                <h2 style={{ width: '100%', textAlign: 'center' }}><GothamBold textAlign={'center'}>{t('differentiators.heading').toUpperCase()}</GothamBold></h2>
+              </Box>
+            ) : (
+              <Box display="flex" alignItems="center" width="100%">
+                <HorizontalDivider flex borderWidth={4} marginRight={65} />
+                <h2><GothamBold>{t('differentiators.heading').toUpperCase()}</GothamBold></h2>
+              </Box>
+            )}
+          </Media>
         <Box width="100%" display="flex" justifyContent="center">
           <Section image={ebsImage} boxFirst heading={t('differentiators.section1.title')}>
             <h4>

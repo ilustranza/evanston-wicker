@@ -63,7 +63,7 @@
       },
       "targetedSearch": {
         "title": "Búsqueda Dirigida",
-        "slug": "<p><strong>Nuestra Búsqueda Dirigida es una solución simplificada para seleccionar al Ejecutivo correcto: directa y rápidamente permite a nuestros Clientes contar con sus posiciones de Liderazgo de una selecta base de Candidatos comparables</p>",
+        "slug": "<p>Nuestra Búsqueda Dirigida es una solución simplificada para seleccionar al Ejecutivo correcto: directa y rápidamente permite a nuestros Clientes contar con sus posiciones de Liderazgo de una selecta base de Candidatos comparables</p>",
         "includes": {
           "1": "Entrevista <br/> detallada basadas<br/> en habilidades",
           "2": "Scorecard<br/> de la simulación<br /> ejecutiva",
@@ -72,7 +72,7 @@
       },
       "leadership": {
         "title": "Perfil de Liderazgo",
-        "slug": "<p><strong>Nuestro Perfil de Liderazgo combina tres diferenciadores clave:</strong><br/> <ul><li> EBS-Executive Business Simulations, exclusiva Simulación Ejecutiva de Negocios </li> <li> El LAB- Leadership Assessment Board, nuestro Consejo de evaluación de Liderazgo </li> <li> Reporte Individual de Indicadores Comparables </li></ul> <br/> Se trata de una manera inteligente y ágil de comparar Candidatos internos y externos así como validar potenciales promociones internas</p>",
+        "slug": "<p>Nuestro Perfil de Liderazgo combina tres diferenciadores clave:<br/> <ul><li> EBS-Executive Business Simulations, exclusiva Simulación Ejecutiva de Negocios </li> <li> El LAB- Leadership Assessment Board, nuestro Consejo de evaluación de Liderazgo </li> <li> Reporte Individual de Indicadores Comparables </li></ul> <br/> Se trata de una manera inteligente y ágil de comparar Candidatos internos y externos así como validar potenciales promociones internas</p>",
         "includes": {
           "1": "Scorecard<br/> de la simulación<br /> ejecutiva",
           "2": "Reporte de <br/> hallazgos del perfil<br/> de liderazgo"
@@ -198,9 +198,9 @@
   },
   "contact": {
     "heading": "Contáctanos",
-    "address": "NUESTRA OFICINA EN LA CIUDAD DE<br/> MEXICO SE ENCUENTRA EN:",
-    "phone1": "En Mexico",
-    "phone2": "Desde USA",
+    "address": "NUESTRA OFICINA EN LA CIUDAD DE MEXICO SE ENCUENTRA EN:",
+    "phone1": "EN MÉXICO",
+    "phone2": "DESDE USA",
     "form": "O BIEN LLENE EL FORMATO ANEXO",
     "email": "TAMBIÉN PUEDE CONTACTARNOS VIA CORREO EN:",
     "readOur": "Para llenar el siguiente formato, por favor lee nuestro aviso de privacidad aquí",

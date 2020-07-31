@@ -157,6 +157,7 @@ export const Right = styled.div`
       line-height: .9;
       display: block;
     } 
+
   }
 
   li span{
@@ -164,8 +165,48 @@ export const Right = styled.div`
   }
 
   @media (max-width: 900px) {
-    padding: 0;
+    padding: 0 !important;
     width: 100%;
+    text-align: center;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+
+      width: 100%;
+      text-align: center;
+      padding: 0 !important;
+      margin: 0 !important;
+      margin-bottom: 30px !important;
+
+      * {
+        width: 100%;
+        text-align: center;
+      }
+
+      span {
+        font-size: 60px;
+        line-height: .9;
+      } 
+      
+    }
+
+    ul {
+
+      display: inline-block;
+      width: auto;
+      text-align: center;
+
+      li {
+        text-align: center;
+      }
+
+    }
+
+
 
   }
 `

@@ -18,6 +18,7 @@ export const GothamBold = styled.span`
   margin: ${props => props.margin || 'unset'};
   margin-bottom: ${props => props.marginBottom || 'unset'};
   text-transform: ${props => props.textTransform || 'initial'};
+  text-align: ${props => props.textAlign || 'initial'};
 `
 
 export const GothamBook = styled.span`
@@ -44,6 +45,7 @@ export const GothamLight = styled.span`
   margin: ${props => props.margin || 'unset'};
   margin-bottom: ${props => props.marginBottom || 'unset'};
   text-transform: ${props => props.textTransform || 'initial'};
+  text-align: ${props => props.textAlign || 'initial'};
 
   span {
     font-family: 'GothamBold';

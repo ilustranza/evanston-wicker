@@ -28,16 +28,15 @@ const MobileOurPractice = () => {
 
 
       <AllPurple>
-        <Flex alignItems="center">
-          <HorizontalDivider borderWidth={4} marginLeft={15} marginRight={20} />
-          <h2><GothamBold>{t('ourpractice.heading').toUpperCase()}</GothamBold></h2>
+        <Flex justifyContent="center" alignItems="center">
+          <h2><GothamBold textAlign={'center'}>{t('ourpractice.heading').toUpperCase()}</GothamBold></h2>
         </Flex>
 
         <Box width="100%" display="flex" justifyContent="center">
           <Box width="100%" display="flex" alignItems="center" justifyContent="center" direction="column">
 
             <BlackBox>
-              <GothamLight size={24}>{t('ourpractice.lifesciences.heading').toUpperCase()}</GothamLight>
+              <GothamLight textAlign={'center'} size={24}>{t('ourpractice.lifesciences.heading').toUpperCase()}</GothamLight>
             </BlackBox>
 
 
@@ -163,7 +162,7 @@ const MobileOurPractice = () => {
           <Box width="100%" display="flex" alignItems="center" justifyContent="center" direction="column">
 
             <BlackBox width="100%" >
-              <GothamLight size={24}>{t('ourpractice.healthcare.heading').toUpperCase()}</GothamLight>
+              <GothamLight textAlign={'center'} size={24}>{t('ourpractice.healthcare.heading').toUpperCase()}</GothamLight>
             </BlackBox>
 
 

@@ -153,7 +153,6 @@ export const Blackbox = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   color: white;
-  text-transform: uppercase;
 
   &.mobile {
     display: none;

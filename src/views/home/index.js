@@ -120,16 +120,17 @@ const Home = () => {
       </AllDarkGray>
       <AllPurple>
         <Right>
+          <HorizontalDivider width={80} marginTop={50} marginBottom={50} borderWidth={6} />
           <h2>
-            <GothamLight size="90px" marginBottom={'0.25em'} >{t('home.ourpractice.line1')}</GothamLight>
-            <GothamBold size="90px">{t('home.ourpractice.line2')}</GothamBold>
+            <GothamLight marginBottom={'0.25em'} >{t('home.ourpractice.line1')}</GothamLight>
+            <GothamBold>{t('home.ourpractice.line2')}</GothamBold>
           </h2>
           <ul>
             <li><GothamLight>{t('ourpractice.lifesciences.heading')}</GothamLight></li>
             <li><GothamLight>{t('ourpractice.healthcare.heading')}</GothamLight></li>
           </ul>
-          <SkewedButton href="/our-practice" color="white" bgColor="#540b80" width={'160px'}>
-            <GothamBold letterSpacing={'1pt'} >{t('home.readmore')}</GothamBold>
+          <SkewedButton href="/our-practice" color="white" bgColor="#540b80">
+            <GothamBold textAlign={'center'} textTransform={'initial'} letterSpacing={'1pt'} >{t('home.readmore')}</GothamBold>
           </SkewedButton>
         </Right>
         <Left>

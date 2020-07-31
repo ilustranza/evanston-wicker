@@ -18,6 +18,11 @@ export const EBSContainer = styled.div`
   justify-content: center;
   color: white;
   flex-direction: column;
+  box-sizing: border-box;
+
+  * {
+    box-sizing: border-box;
+  }
   
   h2 {
     margin-right: 100px;
@@ -50,6 +55,11 @@ export const LabContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  box-sizing: border-box;
+
+  * {
+    box-sizing: border-box;
+  }
 
   @media (max-width: 900px) {
     background-size: cover;
@@ -69,6 +79,11 @@ export const EmphasisContainer = styled.div`
   justify-content: center;
   color: white;
   flex-direction: column;
+  box-sizing: border-box;
+
+  * {
+    box-sizing: border-box;
+  }
 
   @media (max-width: 900px) {
     background-size: cover;
@@ -86,6 +101,11 @@ export const ComprehensiveContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  box-sizing: border-box;
+
+  * {
+    box-sizing: border-box;
+  }
 
   @media (max-width: 900px) {
     background-size: cover;
@@ -104,6 +124,11 @@ export const ProcessContainer = styled.div`
   justify-content: center;
   color: white;
   flex-direction: column;
+  box-sizing: border-box;
+
+  * {
+    box-sizing: border-box;
+  }
 
   @media (max-width: 900px) {
     background-size: cover;

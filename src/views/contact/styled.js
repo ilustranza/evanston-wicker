@@ -5,7 +5,8 @@ import contactBg from '../../static/images/contact/bg_contacto.png'
 export const MainContainer = styled.div`
   width: 100%;
   background-image: url(${contactBg});
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -53,6 +54,7 @@ export const Blackbox = styled.div`
     strong {
       font-family: 'GothamBold'
     }
+    
   }
 
   p {
@@ -161,7 +163,9 @@ export const ContactItem = styled.div`
 
 export const Icon = styled.div`
   height: 30px;
-  width: 60px !important;
+  width: 50px !important;
+  max-width: 50px !important;
+  min-width: 50px !important;
 `
 
 export const SendButton = styled.button`

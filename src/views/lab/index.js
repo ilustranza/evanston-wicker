@@ -38,27 +38,27 @@ const LabBoard = () => {
 
   const slides = [
     {
-      name: <><GothamLight>Gerardo</GothamLight><br/><strong>Gonzalez Yapor</strong></>,
+      name: <><GothamLight textTransform='uppercase'>Gerardo<br/><strong>Gonzalez Yapor</strong></GothamLight></>,
       image: gerardo,
       slug: parse(t('lab.gerardo'))
     },
     {
-      name: <><GothamLight>Kurt</GothamLight><br/><strong>Wicker</strong></>,
+      name: <><GothamLight textTransform='uppercase'>Kurt<br/><strong>Wicker</strong></GothamLight></>,
       image: kurt,
       slug: parse(t('lab.kurt'))
     },
     {
-      name: <><GothamLight>Viviana</GothamLight><br/><strong>Alcocer</strong></>,
+      name: <><GothamLight textTransform='uppercase'>Viviana<br/><strong>Alcocer</strong></GothamLight></>,
       image: viviana,
       slug: parse(t('lab.viviana'))
     },
     {
-      name: <><GothamLight>Gérard</GothamLight><br/><strong>Schoor</strong></>,
+      name: <><GothamLight textTransform='uppercase'>Gérard<br/><strong>Schoor</strong></GothamLight></>,
       image: gerard,
       slug: parse(t('lab.gerard'))
     },
     {
-      name: <><GothamLight>Mauricio</GothamLight><br/><strong>Uribe</strong></>,
+      name: <><GothamLight textTransform='uppercase'>Mauricio<br/><strong>Uribe</strong></GothamLight></>,
       image: mauricio,
       slug: parse(t('lab.mauricio'))
     }
@@ -92,23 +92,23 @@ const LabBoard = () => {
           <CarouselContainer>
             <ImageItem onClick={() => goToSlide(0)}>
               <img src={gerardoT} alt="Gerardo Gonzalez Yapor" />
-              <h2><GothamLight lineHeight={'1.5em'}>Gerardo</GothamLight><br/><strong style={{ 'line-height': '1.5em'}} >Gonzalez Yapor</strong></h2>
+              <h2><GothamLight textTransform={'uppercase'} lineHeight={'1.5em'}>Gerardo<br/><strong style={{ 'line-height': '1.5em'}} >Gonzalez Yapor</strong></GothamLight></h2>
             </ImageItem>
             <ImageItem onClick={() => goToSlide(1)}>
               <img src={kurtT} alt="Kurt Wicker" />
-              <h2><GothamLight lineHeight={'1.5em'}>Kurt</GothamLight><br/><strong>Wicker</strong></h2>
+              <h2><GothamLight textTransform={'uppercase'} lineHeight={'1.5em'}>Kurt<br/><strong>Wicker</strong></GothamLight></h2>
             </ImageItem>
             <ImageItem onClick={() => goToSlide(2)}>
               <img src={vivianaT} alt="Viviana Alcocer" />
-              <h2><GothamLight lineHeight={'1.5em'}>Viviana</GothamLight><br/><strong>Alcocer</strong></h2>
+              <h2><GothamLight textTransform={'uppercase'} lineHeight={'1.5em'}>Viviana<br/><strong>Alcocer</strong></GothamLight></h2>
             </ImageItem>
             <ImageItem onClick={() => goToSlide(3)}>
               <img src={gerardT} alt="Gérard Schoor" />
-              <h2><GothamLight lineHeight={'1.5em'}>Gérard</GothamLight><br/><strong>Schoor</strong></h2>
+              <h2><GothamLight textTransform={'uppercase'} lineHeight={'1.5em'}>Gérard<br/><strong>Schoor</strong></GothamLight></h2>
             </ImageItem>
             <ImageItem onClick={() => goToSlide(4)}>
               <img src={mauricioT} alt="Mauricio Uribe" />
-              <h2><GothamLight lineHeight={'1.5em'}>Mauricio</GothamLight><br/><strong>Uribe</strong></h2>
+              <h2><GothamLight textTransform={'uppercase'} lineHeight={'1.5em'}>Mauricio<br/><strong>Uribe</strong></GothamLight></h2>
             </ImageItem>
           </CarouselContainer>
         ) : (
@@ -128,6 +128,7 @@ const LabBoard = () => {
                   </svg>
                 </TapArea>
               </LeftArrow>
+
               <MemberContainer>
                 <FadeBox><img src={slides[activeSlide].image} alt="Member portrait" /></FadeBox>
                 <Blackbox className="web">
@@ -136,6 +137,7 @@ const LabBoard = () => {
                   {slides[activeSlide].slug}
                 </Blackbox>
               </MemberContainer>
+
               <RightArrow>
                 <TapArea
                   onTap={() => {
@@ -151,6 +153,7 @@ const LabBoard = () => {
                 </TapArea>
               </RightArrow>
             </CarouselItem>
+
             <Blackbox className="mobile">
               <HorizontalDivider borderWidth={4} marginTop={85} marginBottom={50} marginRight={65} size="45px" />
               <h2>{slides[activeSlide].name}</h2>
@@ -159,13 +162,17 @@ const LabBoard = () => {
           </>
         )}
       </MainContainer>
+
       <AllDarkGray>
-        <div style={{ }}>
-          <GothamLight>{parse(t('whatwedo.secondaryBanner'))}</GothamLight>
-          <Didot className="tilde">~</Didot>
+        <div>
+          
+            <GothamLight textAlign={'center'} style={{ width: '100%' }}>{parse(t('whatwedo.secondaryBanner'))}</GothamLight>
+
+          {/*<Didot className="tilde">~</Didot>*/}
           <img src={Logo} width="120px" height="31px" alt="logo" />
         </div>
       </AllDarkGray>
+
     </>
   )
 }

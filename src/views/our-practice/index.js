@@ -58,7 +58,7 @@ const OurPractice = () => {
                       textStyle={{
                         fontFamily: 'GothamLight',
                         color: 'white',
-                        fontSize: 30,
+                        fontSize: 24,
                       }}
                     />
                     <Box display="flex" direction="column">
@@ -74,7 +74,7 @@ const OurPractice = () => {
                           textStyle={{
                             fontFamily: 'GothamLight',
                             color: 'white',
-                            fontSize: 21,
+                            fontSize: 24,
                           }}
                         />
                         <HoverCard 
@@ -87,7 +87,7 @@ const OurPractice = () => {
                           textStyle={{
                             fontFamily: 'GothamLight',
                             color: 'white',
-                            fontSize: 35,
+                            fontSize: 30,
                             fontWeight: 'bold'
                           }}
                         />
@@ -104,7 +104,7 @@ const OurPractice = () => {
                           textStyle={{
                             fontFamily: 'GothamLight',
                             color: 'white',
-                            fontSize: 35,
+                            fontSize: 30,
                             fontWeight: 'bold'
                           }}
                         />
@@ -134,7 +134,7 @@ const OurPractice = () => {
                       textStyle={{
                         fontFamily: 'GothamLight',
                         color: 'white',
-                        fontSize: 25
+                        fontSize: 24
                       }}
                     />
                   </Box>
@@ -147,8 +147,10 @@ const OurPractice = () => {
             </AllPurple>
             <AllDarkGray>
               <div>
-                {parse(t('whatwedo.secondaryBanner'))}
-                <Didot className="tilde">~</Didot>
+                
+                  <GothamLight textAlign={'center'} style={{ width: '100%' }}>{parse(t('whatwedo.secondaryBanner'))}</GothamLight>
+
+                {/*<Didot className="tilde">~</Didot>*/}
                 <img src={Logo} width="120px" height="31px" alt="logo" />
               </div>
             </AllDarkGray>
@@ -170,7 +172,7 @@ const OurPractice = () => {
                       textStyle={{
                         fontFamily: 'GothamLight',
                         color: 'white',
-                        fontSize: 30,
+                        fontSize: 24,
                       }}
                     />
                     <Box display="flex" direction="column">
@@ -186,7 +188,7 @@ const OurPractice = () => {
                           textStyle={{
                             fontFamily: 'GothamLight',
                             color: 'white',
-                            fontSize: 25,
+                            fontSize: 24,
                           }}
                         />
                         <HoverCard 
@@ -199,7 +201,7 @@ const OurPractice = () => {
                           textStyle={{
                             fontFamily: 'GothamLight',
                             color: 'white',
-                            fontSize: 35,
+                            fontSize: 30,
                             fontWeight: 'bold'
                           }}
                         />
@@ -216,7 +218,7 @@ const OurPractice = () => {
                           textStyle={{
                             fontFamily: 'GothamLight',
                             color: 'white',
-                            fontSize: 35,
+                            fontSize: 30,
                             fontWeight: 'bold'
                           }}
                         />
@@ -230,7 +232,7 @@ const OurPractice = () => {
                           textStyle={{
                             fontFamily: 'GothamLight',
                             color: 'white',
-                            fontSize: 28
+                            fontSize: 24
                           }}
                         />
                       </Box>
@@ -246,7 +248,7 @@ const OurPractice = () => {
                       textStyle={{
                         fontFamily: 'GothamLight',
                         color: 'white',
-                        fontSize: 25
+                        fontSize: 24
                       }}
                     />
                   </Box>

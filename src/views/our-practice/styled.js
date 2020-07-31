@@ -23,10 +23,12 @@ export const AllDarkGray = styled.div`
   justify-content: flex-end;
   padding-top: 70px;
   padding-bottom: 40px;
+  box-sizing: border-box;
   
   div {
+    width: 100%;
     text-align: center;
-    margin-right: 320px;
+    // margin-right: 320px;
     letter-spacing: 4px;
   }
 
@@ -42,11 +44,12 @@ export const AllDarkGray = styled.div`
   }
 
   @media (max-width: 768px) {
+    width: 100%;
     height: 200px;
     background-size: cover;
     background-position: bottom center;
     padding: 0 15px;
-    width: calc(100% - 30px);
+    box-sizing: border-box;
 
     div {
       margin-right: 0;
@@ -113,7 +116,7 @@ export const BlackBox = styled.div`
   padding: 0 45px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   color: white;
   text-transform: uppercase !important;
 

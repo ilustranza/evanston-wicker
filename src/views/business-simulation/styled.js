@@ -84,7 +84,8 @@ export const Blackbox = styled.div`
   text-transform: uppercase;
 
   h2 {
-    margin: 0;
+    margin: 0 !important;
+    padding: 0;
     font-size: 56px;
     letter-spacing: 0;
     text-align: left;
@@ -193,19 +194,22 @@ export const ActiveThumbnail = styled.div`
 
 export const ActiveThumbnailViolator = styled.div`
   background-color: #5c0f8b;
-  width: 190px;
+  min-width: 190px;
   height: 200px;
   padding-left: 32px;
   cursor: pointer;
+  padding: 0 15px;
 
   h2 {
     font-size: 36px;
     text-transform: uppercase;
     line-height: 1.2em;
+    padding: 0;
 
     strong {
       font-family: 'GothamBold';
     }
+
   }
 
   @media (max-width: 768px) {
@@ -214,10 +218,11 @@ export const ActiveThumbnailViolator = styled.div`
     padding-left: 15px;
 
     h2 {
-      margin: 0 !important;
+      // margin: 0 !important;
+      font-size: 18px !important;
 
       span {
-        font-size: 24px !important;
+        font-size: 20px !important;
         line-height: 1.2em !important;
       }
     }
