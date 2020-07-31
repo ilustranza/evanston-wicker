@@ -214,16 +214,16 @@ export const ActiveThumbnailViolator = styled.div`
   }
 
   @media (max-width: 768px) {
-    width: 184px;
-    height: 150px;
+    // width: 184px;
+    // height: 180px;
     padding-left: 15px;
 
     h2 {
       // margin: 0 !important;
-      font-size: 18px !important;
+      font-size: 24px !important;
 
       span {
-        font-size: 20px !important;
+        font-size: 28px !important;
         line-height: 1.2em !important;
       }
     }

@@ -110,7 +110,7 @@ const BusinessSimulation = () => {
 
 
           <ActiveThumbnail onClick={() => setActiveSlide(activeThumb)}>
-            <img src={slides[activeThumb].thumbnail} style={{ width: 516 }} alt={slides[activeThumb].selector} />
+            <img src={slides[activeThumb].thumbnail} style={{ width: 520 }} alt={slides[activeThumb].selector} />
             <ActiveThumbnailViolator>
               <HorizontalDivider 
                 flex borderWidth={2}
