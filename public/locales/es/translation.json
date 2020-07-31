@@ -55,7 +55,7 @@
       "includesSection": "Incluye",
       "execSearch": {
         "title": "Búsqueda Ejecutiva",
-        "slug": "La Búsqueda Ejecutiva combina todas nuestras herramientas, para proporcionar puntualmente a nuestros Clientes, Líderez excepcionales con la mentalidad adecuada para tener éxito en su nueva responsabilidad",
+        "slug": "La Búsqueda Ejecutiva combina todas nuestras herramientas, para proporcionar puntualmente a nuestros Clientes, Líderes excepcionales con la mentalidad adecuada para tener éxito en su nueva responsabilidad",
         "includes": {
           "1": "Entrevista <br/> detallada basadas<br/> en habilidades",
           "2": "Scorecard<br/> de la simulación<br /> ejecutiva",
@@ -74,7 +74,7 @@
       },
       "leadership": {
         "title": "Perfil de Liderazgo",
-        "slug": "<p>Nuestro Perfil de Liderazgo combina tres diferenciadores clave:<br/> <ul><li> EBS-Executive Business Simulations, exclusiva Simulación Ejecutiva de Negocios </li> <li> El LAB- Leadership Assessment Board, nuestro Consejo de evaluación de Liderazgo </li> <li> Reporte Individual de Indicadores Comparables </li></ul> <br/> Se trata de una manera inteligente y ágil de comparar Candidatos internos y externos así como validar potenciales promociones internas</p>",
+        "slug": "<p>Nuestro Perfil de Liderazgo combina tres diferenciadores clave:<br/> <ul><li> EBS-Executive Business Simulation, exclusiva Simulación Ejecutiva de Negocios </li> <li> El LAB- Leadership Assessment Board, nuestro Consejo de evaluación de Liderazgo </li> <li> Reporte Individual de Indicadores Comparables </li></ul> <br/> Se trata de una manera inteligente y ágil de comparar Candidatos internos y externos así como validar potenciales promociones internas</p>",
         "includes": {
           "1": "Scorecard<br/> de la simulación<br /> ejecutiva",
           "2": "Reporte de <br/> hallazgos del perfil<br/> de liderazgo"
@@ -82,13 +82,13 @@
       },
       "groupSimulation": {
         "title": "Simulaciones de Grupo",
-      "slug": "<p>Nuestras Simulaciones de Grupo es una forma de desafiar a los miembros del Equipo directivo para que interactúen en vivo ó virtualmente con sus colegas</p><p>De primera mano afinan sus capacidades de toma decisiones y propician discusiones constructivas pero apasionadas. Es así mismo un foro de generación de nuevas ideas</p><p>Se puede trabajar individualmente durante la sesión ó en Equipos diseñados a propósito para generar mayor colaboración y una mejor cohesión dentro de dichos Equipos</p>",
+      "slug": "<p>Nuestras Simulaciones de Grupo es una forma de desafiar a los miembros del Equipo directivo para que interactúen en vivo ó virtualmente con sus colegas</p><p>De primera mano afinan sus capacidades de toma de decisiones y propician discusiones constructivas pero apasionadas. Es así mismo un foro de generación de nuevas ideas</p><p>Se puede trabajar individualmente durante la sesión ó en Equipos diseñados a propósito para generar mayor colaboración y una mejor cohesión dentro de dichos Equipos</p>",
         "includes": {
           "1": "Scorecard<br/> de la simulación<br /> ejecutiva"
         }
       }
     },
-    "secondaryBanner": "<p><GothamLight><strong>Reedefiniendo el desempeño</strong><br /> por medio de un Liderazgo Excepcional</GothamLight></p>"
+    "secondaryBanner": "<p><GothamLight><strong>Redefiniendo el desempeño</strong><br /> por medio de un Liderazgo Excepcional</GothamLight></p>"
   },
   "ourpractice": {
     "heading": "Nuestra Práctica",
