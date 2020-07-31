@@ -45,8 +45,6 @@ const BusinessSimulation = () => {
 
   const rightThumbnailIdx = activeThumb - 1 < 0 ? slides.length -1 : activeThumb - 1;
   const leftThumbnailIdx = activeThumb + 1 > slides.length - 1 ? 0 : activeThumb + 1;
-  const thumbFontSize = i18n.language === 'es' ? 38 : 54;
-  const lineHeight = i18n.language === 'es' ? 1.1 : .9;
 
   return (
     <>

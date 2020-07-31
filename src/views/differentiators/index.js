@@ -24,10 +24,6 @@ const KeyDifferentiators = () => {
   const { t, i18n } = useTranslation()
   const language = i18n.language
 
-  var horizontalDivider = ""
-
-
-
   return (
     <>
       <EBSContainer>

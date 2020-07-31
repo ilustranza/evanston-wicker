@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { ThumbnailContainer, ThumbnailBanner, HorizontalDivider } from './styled'
-import { GothamLight, GothamBold } from '../../components/Font/styled'
+import { GothamBold } from '../../components/Font/styled'
 import SkewedButton from '../../components/SkewedButton'
 import { useTranslation } from 'react-i18next'
 
 const Thumbnail = ({ image, title, isActive }) => {
   
   const [isHovered, setHover] = useState(false);
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
 
   return (
     <ThumbnailContainer 

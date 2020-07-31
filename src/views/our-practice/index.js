@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../../static/images/white-logo.png'
-import { GothamLight, GothamBold, Didot } from '../../components/Font/styled'
+import { GothamLight, GothamBold } from '../../components/Font/styled'
 import { useTranslation } from 'react-i18next';
 import parse from 'html-react-parser'
 import { AllDarkGray, AllPurple, HorizontalDivider, BlackBox, Flex } from './styled'

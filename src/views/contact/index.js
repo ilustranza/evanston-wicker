@@ -18,8 +18,6 @@ import parse from 'html-react-parser'
 import avisoES  from '../../static/files/AvisoPrivacidad.pdf'
 import avisoEN  from '../../static/files/PrivacyNotice.pdf'
 
-const mail = require('@sendgrid/mail')
-
 const sendMail = () => {
 
   let firstName = document.getElementById('firstName').value
@@ -34,7 +32,7 @@ const sendMail = () => {
  
   // { fullName, company, jobTitle, email, phone, country, city }
 
-  let html = "<h3>DATOS PERSONALES</h3><h4>Nombre: " + fullName + "</h4><p>País: " + country + "</p><p>Ciudad: " + city + "</p><br/><h3>DATOS LABORALES</h3><p>" + company + "</p><p>Puesto: " + jobTitle + "</p><br/><h3>DATOS DE CONTACTO</h3><p>Correo Electrónico: " + email + "</p><p>Teléfono: " + phone + "</p>"
+  let html = "<h3>DATOS PERSONALES</h3><h4>Nombre: " + fullName + "</h4><p>País: " + country + "</p><p>Ciudad: " + city + "</p><br/><h3>DATOS LABORALES</h3><p>Empresa: " + company + "</p><p>Puesto: " + jobTitle + "</p><br/><h3>DATOS DE CONTACTO</h3><p>Correo Electrónico: " + email + "</p><p>Teléfono: " + phone + "</p>"
 
   const body = {
     to: 'l.alonsosolano@gmail.com',

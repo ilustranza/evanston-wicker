@@ -9,7 +9,7 @@ import { Box } from 'gestalt'
 const TopNav = () => {
   const { t } = useTranslation()
   const location = useLocation();
-  const [showChevron, setChevron] = useState(false)
+  const [setChevron] = useState(false)
 
   return(
     <Nav>

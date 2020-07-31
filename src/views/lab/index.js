@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { GothamLight, GothamBold, Didot } from '../../components/Font/styled'
+import { GothamLight, GothamBold } from '../../components/Font/styled'
 import { useTranslation } from 'react-i18next';
 import { 
   MainContainer, 

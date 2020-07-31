@@ -1,5 +1,4 @@
 import React from 'react'
-import FooterLogo from '../../static/images/white-logo.png'
 import { FooterContainer, FooterWrapper, FooterNav, Left, Right, SecondaryFooter, SecondaryFooterWrapper, HorizontalDivider } from './styled'
 import { plainLinks } from '../../constants/links'
 import { useTranslation } from 'react-i18next'
